@@ -24,7 +24,7 @@ const portfolioItems: PortfolioItem[] = [
     title: "Anira & Raj's Wedding",
     category: "Weddings",
     slug: "wedding/anira-and-raj",
-    thumbnail: "/portfolio/wedding/anira-and-raj/ss.png",
+    thumbnail: "/portfolio",
     description: "A beautiful fusion wedding celebrating love, tradition, and family",
     location: "The Grand Pavilion, Mumbai",
     date: "March 2025"
@@ -178,7 +178,7 @@ export default function PortfolioPage() {
                 whileHover={{ y: -5 }}
                 transition={{ duration: 0.3 }}
               >
-                <Link href={`/portfolio/${item.slug}`}>
+                <Link href={`/portfolio`}>
                   <div className="relative aspect-[4/5]">
                     <Image
                       src={item.thumbnail}

@@ -1,40 +1,41 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Manrope, Playfair_Display } from 'next/font/google';
+import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
 
-const manrope = Manrope({ 
-  subsets: ['latin'],
-  variable: '--font-manrope',
-});
-
-const playfair = Playfair_Display({ 
-  subsets: ['latin'],
-  variable: '--font-playfair', 
-});
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Luxe Photography | Capturing Timeless Moments',
-  description: 'Premium photography services specializing in weddings, portraits, and events. Crafting timeless memories with a luxury touch.',
-  keywords: 'photographer, wedding photography, portrait photography, luxury photography, professional photographer',
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'http://localhost:3000'),
+  title: {
+    default: 'Luxe Photography',
+    template: '%s | Luxe Photography'
+  },
+  description: 'Professional photography services for weddings, portraits, events, and more.',
   openGraph: {
-    title: 'Luxe Photography | Capturing Timeless Moments',
-    description: 'Premium photography services specializing in weddings, portraits, and events. Crafting timeless memories with a luxury touch.',
-    url: 'https://luxephotography.com',
+    type: 'website',
+    locale: 'en_US',
+    url: '/',
     siteName: 'Luxe Photography',
+    title: 'Luxe Photography',
+    description: 'Professional photography services for weddings, portraits, events, and more.',
     images: [
       {
-        url: 'https://images.pexels.com/photos/1813922/pexels-photo-1813922.jpeg',
+        url: '/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Luxe Photography',
-      },
-    ],
-    locale: 'en_US',
-    type: 'website',
+        alt: 'Luxe Photography'
+      }
+    ]
   },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Luxe Photography',
+    description: 'Professional photography services for weddings, portraits, events, and more.',
+    images: ['/og-image.jpg']
+  }
 };
 
 export default function RootLayout({
@@ -44,10 +45,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${manrope.variable} ${playfair.variable} font-sans bg-background text-foreground min-h-screen`}>
+      <body className={inter.className}>
         <ThemeProvider
           attribute="class"
-          defaultTheme="light"
+          defaultTheme="system"
           enableSystem
           disableTransitionOnChange
         >

@@ -149,7 +149,7 @@ export default function FeaturedWork() {
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.3 }}
             >
-              <Link href={`/portfolio/${project.slug}`}>
+              <Link href={`/portfolio`}>
                 <div className="aspect-[4/5] relative overflow-hidden rounded-lg bg-muted">
                   <Image
                     src={project.thumbnail}

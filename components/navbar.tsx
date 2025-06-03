@@ -8,13 +8,28 @@ import { useTheme } from "next-themes";
 import { Menu, X, Camera, Moon, Sun, ChevronDown } from "lucide-react";
 import { cn } from "@/lib/utils";
 
-const navLinks = [
+type NavItem = {
+  name: string;
+  href: string;
+  dropdown?: {
+    name: string;
+    href: string;
+  }[];
+};
+
+const navLinks: NavItem[] = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
   {
     name: "Portfolio",
-    href: "/portfolio"
-    
+    href: "/portfolio",
+    dropdown: [
+      { name: "Weddings", href: "/portfolio" },
+      { name: "Portraits", href: "/portfolio" },
+      { name: "Events", href: "/portfolio" },
+      { name: "Fashion", href: "/portfolio" },
+      { name: "Commercial", href: "/portfolio" }
+    ]
   },
   { name: "Services", href: "/services" },
   { name: "Blog", href: "/blog" },
