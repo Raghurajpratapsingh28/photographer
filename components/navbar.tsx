@@ -20,17 +20,7 @@ type NavItem = {
 const navLinks: NavItem[] = [
   { name: "Home", href: "/" },
   { name: "About", href: "/about" },
-  {
-    name: "Portfolio",
-    href: "/portfolio",
-    dropdown: [
-      { name: "Weddings", href: "/portfolio" },
-      { name: "Portraits", href: "/portfolio" },
-      { name: "Events", href: "/portfolio" },
-      { name: "Fashion", href: "/portfolio" },
-      { name: "Commercial", href: "/portfolio" }
-    ]
-  },
+  { name: "Portfolio", href: "/portfolio" },
   { name: "Services", href: "/services" },
   { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
