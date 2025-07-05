@@ -1,7 +1,9 @@
 "use client";
 
-import { portfolioItems } from "../portfolio/page";
+import { getAllPortfolioItems } from "../../lib/portfolio";
 import Link from "next/link";
+
+const portfolioItems = getAllPortfolioItems();
 
 export default function TestPortfolioPage() {
   return (
