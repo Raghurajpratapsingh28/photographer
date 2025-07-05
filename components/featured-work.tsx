@@ -4,75 +4,25 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
-
-type Project = {
-  id: number;
-  title: string;
-  category: string;
-  slug: string;
-  thumbnail: string;
-  description: string;
-};
-
-const projects: Project[] = [
-  {
-    id: 1,
-    title: "Ankit & Mira's Wedding",
-    category: "Wedding",
-    slug: "ankit-mira-wedding",
-    thumbnail: "https://images.pexels.com/photos/1420705/pexels-photo-1420705.jpeg",
-    description: "A beautiful summer wedding at Taj Palace",
-  },
-  {
-    id: 2,
-    title: "Neha's Portrait Session",
-    category: "Portrait",
-    slug: "neha-portrait-session",
-    thumbnail: "https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg",
-    description: "Professional portraits in a studio setting",
-  },
-  {
-    id: 3,
-    title: "Annual Charity Gala",
-    category: "Event",
-    slug: "charity-gala-2025",
-    thumbnail: "https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg",
-    description: "Documenting a high-profile charity event",
-  },
-  {
-    id: 4,
-    title: "Rohan & Priya's Engagement",
-    category: "Wedding",
-    slug: "rohan-priya-engagement",
-    thumbnail: "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg",
-    description: "Pre-wedding photoshoot at a scenic beach",
-  },
-  {
-    id: 5,
-    title: "Corporate Team Photos",
-    category: "Commercial",
-    slug: "tech-startup-team",
-    thumbnail: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
-    description: "Professional team photography for a tech startup",
-  },
-  {
-    id: 6,
-    title: "Fashion Editorial",
-    category: "Fashion",
-    slug: "summer-fashion-editorial",
-    thumbnail: "https://images.pexels.com/photos/2853909/pexels-photo-2853909.jpeg",
-    description: "Summer collection for a local boutique",
-  },
-];
-
-const categories = ["All", "Wedding", "Portrait", "Event", "Commercial", "Fashion"];
+import { 
+  getAllPortfolioItems, 
+  getAllCategories, 
+  getPortfolioItemsByCategory,
+  type PortfolioItem,
+  type Category 
+} from "@/lib/portfolio";
 
 export default function FeaturedWork() {
-  const [filter, setFilter] = useState("All");
+  const [filter, setFilter] = useState("all");
   
-  const filteredProjects = filter === "All"
-    ? projects
-    : projects.filter(project => project.category === filter);
+  // Get data from portfolio.ts
+  const allItems = getAllPortfolioItems();
+  const categories = getAllCategories();
+  
+  // Filter projects based on selected category
+  const filteredProjects = filter === "all"
+    ? allItems.slice(0, 6) // Show first 6 items for "All"
+    : getPortfolioItemsByCategory(filter).slice(0, 6); // Show first 6 items for specific category
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -120,15 +70,15 @@ export default function FeaturedWork() {
         >
           {categories.map(category => (
             <button
-              key={category}
-              onClick={() => setFilter(category)}
+              key={category.id}
+              onClick={() => setFilter(category.id)}
               className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                filter === category 
+                filter === category.id 
                   ? "bg-primary text-primary-foreground" 
                   : "bg-secondary hover:bg-secondary/80 text-secondary-foreground"
               }`}
             >
-              {category}
+              {category.name}
             </button>
           ))}
         </motion.div>
@@ -149,7 +99,7 @@ export default function FeaturedWork() {
               whileHover={{ scale: 1.02 }}
               transition={{ duration: 0.3 }}
             >
-              <Link href={`/portfolio`}>
+              <Link href={`/portfolio/${project.slug}`}>
                 <div className="aspect-[4/5] relative overflow-hidden rounded-lg bg-muted">
                   <Image
                     src={project.thumbnail}

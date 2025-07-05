@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { Calendar, Clock, User, Tag } from "lucide-react";
+import Head from "next/head";
 
 const blogPost = {
   title: "Essential Tips for Wedding Photography",
@@ -71,6 +72,36 @@ const blogPost = {
 export default function BlogPostPage() {
   return (
     <div className="min-h-screen bg-background">
+      <Head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Article",
+              "headline": blogPost.title,
+              "image": blogPost.coverImage,
+              "author": {
+                "@type": "Person",
+                "name": blogPost.author.name
+              },
+              "datePublished": blogPost.date,
+              "publisher": {
+                "@type": "Organization",
+                "name": "Surya Photography",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://yourdomain.com/og-image.jpg"
+                }
+              },
+              "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://yourdomain.com/blog/your-post-slug"
+              }
+            })
+          }}
+        />
+      </Head>
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image

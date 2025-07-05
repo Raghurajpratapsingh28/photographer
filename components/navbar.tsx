@@ -80,7 +80,7 @@ export default function Navbar() {
           >
             <Camera className="h-8 w-8 text-primary" />
             <span className="font-playfair font-bold text-xl md:text-2xl">
-              Luxe<span className="text-gold">Photography</span>
+              Surya <span className="text-gold">Photography</span>
             </span>
           </Link>
 

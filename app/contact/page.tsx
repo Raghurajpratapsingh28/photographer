@@ -129,9 +129,11 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-medium mb-1">Studio Location</h3>
                       <p className="text-muted-foreground">
-                        123 Photography Studio<br />
-                        Luxury Lane<br />
-                        New York, NY 10001
+                        Surya Photography Studio<br />
+                        Bank of India Road<br />
+                        Chhibramau 209721 Kannauj<br />
+                        Uttar Pradesh, India
+
                       </p>
                     </div>
                   </div>
@@ -150,8 +152,8 @@ export default function ContactPage() {
                     <Phone className="w-6 h-6 text-gold mt-1" />
                     <div>
                       <h3 className="font-medium mb-1">Phone</h3>
-                      <a href="tel:+15551234567" className="text-muted-foreground hover:text-primary transition-colors">
-                        +1 (555) 123-4567
+                      <a href="tel:+919151263650" className="text-muted-foreground hover:text-primary transition-colors">
+                      +91 9151263650
                       </a>
                     </div>
                   </div>
@@ -324,7 +326,7 @@ export default function ContactPage() {
 
           <div className="relative h-[400px] rounded-lg overflow-hidden">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343008!2d-74.00425882426699!3d40.74076987932681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259bf5c1654f3%3A0xc80f9cfce5383d5d!2sGoogle!5e0!3m2!1sen!2sus!4v1709912345678!5m2!1sen!2sus"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d221.88744629402302!2d79.49977243229444!3d27.150023911547105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399e19cf107f9325%3A0x1ee9f2abf11832fc!2ssurya&#39;s%20photography!5e0!3m2!1sen!2sin!4v1750766242392!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}

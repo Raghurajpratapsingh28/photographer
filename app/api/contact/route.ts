@@ -76,7 +76,7 @@ export async function POST(request: Request) {
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background-color: #ffffff; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
           <div style="text-align: center; margin-bottom: 30px;">
-            <img src="https://imgs.search.brave.com/ep2X3-OqMb_O6BmYxm_EIF3UwI17qHOG9n5VVKZ5PGA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTAz/ODc2Njk4Mi92ZWN0/b3IvdmVjdG9yLWRl/c2lnbi10ZW1wbGF0/ZS1zdW4tZG90cy1p/Y29uLXNpZ24uanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVQz/dU4zSEtGU1hvVG56/NFNnc3d6U3YzTEEx/Z3pTTE1sZUthOElM/amhSY0U9" alt="Luxe Photography Logo" style="width: 150px; height: auto;"/>
+            <img src="https://imgs.search.brave.com/ep2X3-OqMb_O6BmYxm_EIF3UwI17qHOG9n5VVKZ5PGA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTAz/ODc2Njk4Mi92ZWN0/b3IvdmVjdG9yLWRl/c2lnbi10ZW1wbGF0/ZS1zdW4tZG90cy1p/Y29uLXNpZ24uanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVQz/dU4zSEtGU1hvVG56/NFNnc3d6U3YzTEEx/Z3pTTE1sZUthOElM/amhSY0U9" alt="Surya Photography Logo" style="width: 150px; height: auto;"/>
           </div>
 
           <h2 style="color: #333; font-size: 28px; margin-bottom: 25px; text-align: center; font-family: 'Playfair Display', serif;">New Photography Inquiry</h2>
@@ -110,7 +110,7 @@ export async function POST(request: Request) {
               <tr>
                 <td style="text-align: center;">
                   <img src="https://imgs.search.brave.com/ep2X3-OqMb_O6BmYxm_EIF3UwI17qHOG9n5VVKZ5PGA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTAz/ODc2Njk4Mi92ZWN0/b3IvdmVjdG9yLWRl/c2lnbi10ZW1wbGF0/ZS1zdW4tZG90cy1p/Y29uLXNpZ24uanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVQz/dU4zSEtGU1hvVG56/NFNnc3d6U3YzTEEx/Z3pTTE1sZUthOElM/amhSY0U9" alt="Camera Icon" style="width: 24px; height: 24px; margin-bottom: 10px;"/>
-                  <p style="margin: 0; color: #666; font-size: 14px;">Luxe Photography</p>
+                  <p style="margin: 0; color: #666; font-size: 14px;">Surya Photography</p>
                 </td>
                 <td style="text-align: center;">
                   <img src="https://imgs.search.brave.com/ep2X3-OqMb_O6BmYxm_EIF3UwI17qHOG9n5VVKZ5PGA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTAz/ODc2Njk4Mi92ZWN0/b3IvdmVjdG9yLWRl/c2lnbi10ZW1wbGF0/ZS1zdW4tZG90cy1p/Y29uLXNpZ24uanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPVQz/dU4zSEtGU1hvVG56/NFNnc3d6U3YzTEEx/Z3pTTE1sZUthOElM/amhSY0U9" alt="Location Icon" style="width: 24px; height: 24px; margin-bottom: 10px;"/>
@@ -131,7 +131,7 @@ export async function POST(request: Request) {
           </div>
 
           <div style="font-size: 12px; color: #999; text-align: center; margin-top: 30px;">
-            <p style="margin: 5px 0;">© ${new Date().getFullYear()} Luxe Photography. All rights reserved.</p>
+            <p style="margin: 5px 0;">© ${new Date().getFullYear()} Surya Photography. All rights reserved.</p>
             <p style="margin: 5px 0;">This is an automated email from your website's contact form</p>
           </div>
         </div>

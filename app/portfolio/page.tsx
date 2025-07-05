@@ -4,91 +4,24 @@ import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import { 
+  getAllPortfolioItems, 
+  getAllCategories, 
+  getPortfolioItemsByCategory,
+  type PortfolioItem,
+  type Category 
+} from "../../lib/portfolio";
 
-type Category = "All" | "Weddings" | "Portraits" | "Events" | "Fashion" | "Commercial";
-
-type PortfolioItem = {
-  id: number;
-  title: string;
-  category: Category;
-  slug: string;
-  thumbnail: string;
-  description: string;
-  location: string;
-  date: string;
-};
-
-const portfolioItems: PortfolioItem[] = [
-  {
-    id: 1,
-    title: "Anira & Raj's Wedding",
-    category: "Weddings",
-    slug: "wedding/anira-and-raj",
-    thumbnail: "/portfolio",
-    description: "A beautiful fusion wedding celebrating love, tradition, and family",
-    location: "The Grand Pavilion, Mumbai",
-    date: "March 2025"
-  },
-  {
-    id: 2,
-    title: "Professional Portraits",
-    category: "Portraits",
-    slug: "portraits",
-    thumbnail: "https://images.pexels.com/photos/1689731/pexels-photo-1689731.jpeg",
-    description: "Professional portrait sessions capturing your unique personality",
-    location: "Luxe Studio",
-    date: "May 2025"
-  },
-  {
-    id: 3,
-    title: "Annual Charity Gala",
-    category: "Events",
-    slug: "events/charity-gala",
-    thumbnail: "https://images.pexels.com/photos/2306281/pexels-photo-2306281.jpeg",
-    description: "Documenting a high-profile charity event",
-    location: "Grand Hyatt",
-    date: "April 2025"
-  },
-  {
-    id: 4,
-    title: "Summer Fashion Editorial",
-    category: "Fashion",
-    slug: "fashion/summer-editorial",
-    thumbnail: "https://images.pexels.com/photos/2853909/pexels-photo-2853909.jpeg",
-    description: "Summer collection for a local boutique",
-    location: "Beach Resort",
-    date: "March 2025"
-  },
-  {
-    id: 5,
-    title: "Corporate Team Photos",
-    category: "Commercial",
-    slug: "commercial/tech-startup",
-    thumbnail: "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg",
-    description: "Professional team photography for a tech startup",
-    location: "Tech Park",
-    date: "February 2025"
-  },
-  {
-    id: 6,
-    title: "Rohan & Priya's Engagement",
-    category: "Weddings",
-    slug: "wedding/rohan-priya",
-    thumbnail: "https://images.pexels.com/photos/2253870/pexels-photo-2253870.jpeg",
-    description: "Pre-wedding photoshoot at a scenic beach",
-    location: "Goa Beach",
-    date: "January 2025"
-  }
-];
-
-const categories: Category[] = ["All", "Weddings", "Portraits", "Events", "Fashion", "Commercial"];
+// Get portfolio data from JSON
+const portfolioItems = getAllPortfolioItems();
+const categories = getAllCategories();
 
 export default function PortfolioPage() {
-  const [selectedCategory, setSelectedCategory] = useState<Category>("All");
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
 
-  const filteredItems = selectedCategory === "All"
+  const filteredItems = selectedCategory === "all"
     ? portfolioItems
-    : portfolioItems.filter(item => item.category === selectedCategory);
+    : getPortfolioItemsByCategory(selectedCategory);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -150,15 +83,15 @@ export default function PortfolioPage() {
           >
             {categories.map((category) => (
               <button
-                key={category}
-                onClick={() => setSelectedCategory(category)}
+                key={category.id}
+                onClick={() => setSelectedCategory(category.id)}
                 className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
-                  selectedCategory === category
+                  selectedCategory === category.id
                     ? "bg-primary text-primary-foreground"
                     : "bg-secondary hover:bg-secondary/80 text-secondary-foreground"
                 }`}
               >
-                {category}
+                {category.name}
               </button>
             ))}
           </motion.div>
@@ -178,7 +111,7 @@ export default function PortfolioPage() {
                 whileHover={{ y: -5 }}
                 transition={{ duration: 0.3 }}
               >
-                <Link href={`/portfolio`}>
+                <Link href={`/portfolio/${item.slug}`}>
                   <div className="relative aspect-[4/5]">
                     <Image
                       src={item.thumbnail}

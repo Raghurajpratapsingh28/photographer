@@ -113,7 +113,7 @@ export default function Footer() {
 
         <div className="border-t border-border mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm">
-            © {new Date().getFullYear()} Luxe Photography. All rights reserved.
+            © {new Date().getFullYear()} Surya Photography. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <Link href="/privacy-policy" className="text-muted-foreground hover:text-primary transition-colors text-sm">

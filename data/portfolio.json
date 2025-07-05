@@ -1,0 +1,600 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "name": "All",
+      "description": "All portfolio categories"
+    },
+    {
+      "id": "weddings",
+      "name": "Weddings",
+      "description": "Wedding photography and ceremonies"
+    },
+    {
+      "id": "portraits",
+      "name": "Portraits",
+      "description": "Professional portrait sessions"
+    },
+    {
+      "id": "events",
+      "name": "Events",
+      "description": "Corporate and social events"
+    },
+    {
+      "id": "fashion",
+      "name": "Fashion",
+      "description": "Fashion photography and editorial"
+    },
+    {
+      "id": "commercial",
+      "name": "Commercial",
+      "description": "Commercial and corporate photography"
+    }
+  ],
+  "portfolioItems": [
+    {
+      "id": 1,
+      "title": "Anira & Raj's Wedding",
+      "category": "weddings",
+      "slug": "wedding/anira-and-raj",
+      "thumbnail": "/VMC03144.jpg",
+      "description": "A beautiful fusion wedding celebrating love, tradition, and family",
+      "location": "The Grand Pavilion, Mumbai",
+      "date": "March 2025",
+      "client": "Anira & Raj",
+      "duration": "Full Day",
+      "services": ["Wedding Ceremony", "Reception", "Pre-wedding Shoot"],
+      "photos": [
+        {
+          "id": "wedding_1_1",
+          "src": "/VMC03144.jpg",
+          "alt": "Wedding ceremony moment",
+          "caption": "The beautiful ceremony begins"
+        },
+        {
+          "id": "wedding_1_2",
+          "src": "/VMC03145.jpg",
+          "alt": "Couple portrait",
+          "caption": "Anira and Raj's first portrait as newlyweds"
+        },
+        {
+          "id": "wedding_1_3",
+          "src": "/VMC03146.jpg",
+          "alt": "Family gathering",
+          "caption": "Family celebration"
+        },
+        {
+          "id": "wedding_1_4",
+          "src": "/VMC03152.jpg",
+          "alt": "Reception celebration",
+          "caption": "Joyful reception moments"
+        },
+        {
+          "id": "wedding_1_5",
+          "src": "/VMC03154.jpg",
+          "alt": "Dance performance",
+          "caption": "Traditional dance performance"
+        },
+        {
+          "id": "wedding_1_6",
+          "src": "/VMC03176.jpg",
+          "alt": "Couple dance",
+          "caption": "First dance as husband and wife"
+        },
+        {
+          "id": "wedding_1_7",
+          "src": "/VMC03181.jpg",
+          "alt": "Group photo",
+          "caption": "Family and friends celebration"
+        },
+        {
+          "id": "wedding_1_8",
+          "src": "/VMC03210.jpg",
+          "alt": "Cake cutting",
+          "caption": "Wedding cake cutting ceremony"
+        },
+        {
+          "id": "wedding_1_9",
+          "src": "/VMC03322.jpg",
+          "alt": "Evening celebration",
+          "caption": "Evening reception festivities"
+        },
+        {
+          "id": "wedding_1_10",
+          "src": "/VMC03327.jpg",
+          "alt": "Fireworks display",
+          "caption": "Magical fireworks display"
+        },
+        {
+          "id": "wedding_1_11",
+          "src": "/VMC03370.jpg",
+          "alt": "Final moments",
+          "caption": "Perfect ending to a perfect day"
+        },
+        {
+          "id": "wedding_1_12",
+          "src": "/VMC03373.jpg",
+          "alt": "Departure",
+          "caption": "Bride and groom's departure"
+        }
+      ],
+      "testimonial": {
+        "text": "The photography was absolutely stunning! Every moment was captured beautifully.",
+        "author": "Anira & Raj",
+        "rating": 5
+      },
+      "tags": ["wedding", "fusion", "traditional", "celebration", "family"]
+    },
+    {
+      "id": 2,
+      "title": "Professional Portraits",
+      "category": "portraits",
+      "slug": "portraits",
+      "thumbnail": "/1B1A0396.jpg",
+      "description": "Professional portrait sessions capturing your unique personality",
+      "location": "Luxe Studio",
+      "date": "May 2025",
+      "client": "Various Clients",
+      "duration": "2-3 Hours",
+      "services": ["Studio Portraits", "Outdoor Portraits", "Professional Headshots"],
+      "photos": [
+        {
+          "id": "portrait_2_1",
+          "src": "/1B1A0396.jpg",
+          "alt": "Professional headshot",
+          "caption": "Corporate headshot session"
+        },
+        {
+          "id": "portrait_2_2",
+          "src": "/1B1A0398 (2).jpg",
+          "alt": "Studio portrait",
+          "caption": "Elegant studio lighting"
+        },
+        {
+          "id": "portrait_2_3",
+          "src": "/1B1A0405.jpg",
+          "alt": "Outdoor portrait",
+          "caption": "Natural outdoor lighting"
+        },
+        {
+          "id": "portrait_2_4",
+          "src": "/1B1A0420.jpg",
+          "alt": "Creative portrait",
+          "caption": "Creative composition"
+        },
+        {
+          "id": "portrait_2_5",
+          "src": "/1B1A0944.jpg",
+          "alt": "Family portrait",
+          "caption": "Family portrait session"
+        },
+        {
+          "id": "portrait_2_6",
+          "src": "/1B1A0951.jpg",
+          "alt": "Couple portrait",
+          "caption": "Couple portrait session"
+        },
+        {
+          "id": "portrait_2_7",
+          "src": "/1B1A1411.jpg",
+          "alt": "Senior portrait",
+          "caption": "Senior year portrait"
+        },
+        {
+          "id": "portrait_2_8",
+          "src": "/1B1A3453.jpg",
+          "alt": "Maternity portrait",
+          "caption": "Maternity photography"
+        },
+        {
+          "id": "portrait_2_9",
+          "src": "/1B1A3469.jpg",
+          "alt": "Newborn portrait",
+          "caption": "Newborn photography session"
+        },
+        {
+          "id": "portrait_2_10",
+          "src": "/1B1A3496.jpg",
+          "alt": "Children portrait",
+          "caption": "Children's portrait session"
+        },
+        {
+          "id": "portrait_2_11",
+          "src": "/1B1A4151.jpg",
+          "alt": "Artistic portrait",
+          "caption": "Artistic portrait photography"
+        },
+        {
+          "id": "portrait_2_12",
+          "src": "/1B1A5664.jpg",
+          "alt": "Lifestyle portrait",
+          "caption": "Lifestyle portrait session"
+        }
+      ],
+      "testimonial": {
+        "text": "The portraits exceeded our expectations. Professional and creative!",
+        "author": "Sarah Johnson",
+        "rating": 5
+      },
+      "tags": ["portraits", "studio", "professional", "headshots", "family"]
+    },
+    {
+      "id": 3,
+      "title": "Annual Charity Gala",
+      "category": "events",
+      "slug": "events/charity-gala",
+      "thumbnail": "/IMG_2167.jpg",
+      "description": "Documenting a high-profile charity event",
+      "location": "Grand Hyatt",
+      "date": "April 2025",
+      "client": "Charity Foundation",
+      "duration": "Evening Event",
+      "services": ["Event Coverage", "Candid Photography", "Group Photos"],
+      "photos": [
+        {
+          "id": "event_3_1",
+          "src": "/IMG_2167.jpg",
+          "alt": "Gala entrance",
+          "caption": "Elegant gala entrance"
+        },
+        {
+          "id": "event_3_2",
+          "src": "/IMG_2263.jpg",
+          "alt": "Guest arrivals",
+          "caption": "Distinguished guests arriving"
+        },
+        {
+          "id": "event_3_3",
+          "src": "/IMG_2298.jpg",
+          "alt": "Cocktail hour",
+          "caption": "Cocktail hour networking"
+        },
+        {
+          "id": "event_3_4",
+          "src": "/IMG_2304.jpg",
+          "alt": "Dinner service",
+          "caption": "Elegant dinner service"
+        },
+        {
+          "id": "event_3_5",
+          "src": "/IMG_2308.jpg",
+          "alt": "Auction items",
+          "caption": "Silent auction display"
+        },
+        {
+          "id": "event_3_6",
+          "src": "/IMG_2316.jpg",
+          "alt": "Live auction",
+          "caption": "Live auction excitement"
+        },
+        {
+          "id": "event_3_7",
+          "src": "/IMG_2327.jpg",
+          "alt": "Award ceremony",
+          "caption": "Award presentation"
+        },
+        {
+          "id": "event_3_8",
+          "src": "/IMG_2328 (1).jpg",
+          "alt": "Entertainment",
+          "caption": "Live entertainment"
+        },
+        {
+          "id": "event_3_9",
+          "src": "/IMG_0474.jpg",
+          "alt": "Group photos",
+          "caption": "Group photo session"
+        },
+        {
+          "id": "event_3_10",
+          "src": "/IMG_1658.jpg",
+          "alt": "Dancing",
+          "caption": "Dance floor celebration"
+        },
+        {
+          "id": "event_3_11",
+          "src": "/IMG_1683 (1).jpg",
+          "alt": "Closing moments",
+          "caption": "Event closing moments"
+        },
+        {
+          "id": "event_3_12",
+          "src": "/IMG_1683.jpg",
+          "alt": "Farewell",
+          "caption": "Guests departing"
+        }
+      ],
+      "testimonial": {
+        "text": "Perfect documentation of our charity event. Professional and discreet.",
+        "author": "Charity Foundation",
+        "rating": 5
+      },
+      "tags": ["events", "charity", "gala", "corporate", "networking"]
+    },
+    {
+      "id": 4,
+      "title": "Summer Fashion Editorial",
+      "category": "fashion",
+      "slug": "fashion/summer-editorial",
+      "thumbnail": "/1B1A8443.jpg",
+      "description": "Summer collection for a local boutique",
+      "location": "Beach Resort",
+      "date": "March 2025",
+      "client": "Summer Boutique",
+      "duration": "Full Day",
+      "services": ["Fashion Photography", "Model Direction", "Location Scouting"],
+      "photos": [
+        {
+          "id": "fashion_4_1",
+          "src": "/1B1A8443.jpg",
+          "alt": "Beach fashion shot",
+          "caption": "Summer beach collection"
+        },
+        {
+          "id": "fashion_4_2",
+          "src": "/1B1A8450.jpg",
+          "alt": "Resort fashion",
+          "caption": "Resort wear collection"
+        },
+        {
+          "id": "fashion_4_3",
+          "src": "/1B1A8458.jpg",
+          "alt": "Casual fashion",
+          "caption": "Casual summer wear"
+        },
+        {
+          "id": "fashion_4_4",
+          "src": "/1B1A8652 (1).jpg",
+          "alt": "Evening fashion",
+          "caption": "Evening summer dresses"
+        },
+        {
+          "id": "fashion_4_5",
+          "src": "/1B1A8680.jpg",
+          "alt": "Accessories shot",
+          "caption": "Summer accessories"
+        },
+        {
+          "id": "fashion_4_6",
+          "src": "/1B1A8749.jpg",
+          "alt": "Swimwear",
+          "caption": "Swimwear collection"
+        },
+        {
+          "id": "fashion_4_7",
+          "src": "/1B1A8752.jpg",
+          "alt": "Lifestyle fashion",
+          "caption": "Lifestyle fashion shots"
+        },
+        {
+          "id": "fashion_4_8",
+          "src": "/1B1A9381.jpg",
+          "alt": "Close-up fashion",
+          "caption": "Detail shots"
+        },
+        {
+          "id": "fashion_4_9",
+          "src": "/1B1A9384.jpg",
+          "alt": "Group fashion",
+          "caption": "Group fashion shots"
+        },
+        {
+          "id": "fashion_4_10",
+          "src": "/1B1A8359.jpg",
+          "alt": "Outdoor fashion",
+          "caption": "Outdoor fashion photography"
+        },
+        {
+          "id": "fashion_4_11",
+          "src": "/1B1A5725.jpg",
+          "alt": "Studio fashion",
+          "caption": "Studio fashion shots"
+        },
+        {
+          "id": "fashion_4_12",
+          "src": "/5F3A0546 (1).jpg",
+          "alt": "Final fashion",
+          "caption": "Collection finale"
+        }
+      ],
+      "testimonial": {
+        "text": "The fashion shots are magazine-worthy! Our sales increased by 40%.",
+        "author": "Summer Boutique",
+        "rating": 5
+      },
+      "tags": ["fashion", "editorial", "summer", "beach", "boutique"]
+    },
+    {
+      "id": 5,
+      "title": "Corporate Team Photos",
+      "category": "commercial",
+      "slug": "commercial/tech-startup",
+      "thumbnail": "/VMC02805.jpg",
+      "description": "Professional team photography for a tech startup",
+      "location": "Tech Park",
+      "date": "February 2025",
+      "client": "TechStart Inc.",
+      "duration": "Half Day",
+      "services": ["Team Photos", "Individual Headshots", "Office Environment"],
+      "photos": [
+        {
+          "id": "commercial_5_1",
+          "src": "/VMC02805.jpg",
+          "alt": "Team group photo",
+          "caption": "Full team group photo"
+        },
+        {
+          "id": "commercial_5_2",
+          "src": "/VMC02809.jpg",
+          "alt": "Department teams",
+          "caption": "Development team"
+        },
+        {
+          "id": "commercial_5_3",
+          "src": "/VMC02827.jpg",
+          "alt": "Leadership team",
+          "caption": "Executive team photo"
+        },
+        {
+          "id": "commercial_5_4",
+          "src": "/VMC02863.jpg",
+          "alt": "Office environment",
+          "caption": "Modern office space"
+        },
+        {
+          "id": "commercial_5_5",
+          "src": "/VMC02872.jpg",
+          "alt": "Individual headshots",
+          "caption": "Professional headshots"
+        },
+        {
+          "id": "commercial_5_6",
+          "src": "/VMC02899.jpg",
+          "alt": "Team collaboration",
+          "caption": "Team collaboration shots"
+        },
+        {
+          "id": "commercial_5_7",
+          "src": "/VMC02901.jpg",
+          "alt": "Work environment",
+          "caption": "Work environment photography"
+        },
+        {
+          "id": "commercial_5_8",
+          "src": "/VMC02907.jpg",
+          "alt": "Casual team shots",
+          "caption": "Casual team moments"
+        },
+        {
+          "id": "commercial_5_9",
+          "src": "/VMC02910.jpg",
+          "alt": "Office culture",
+          "caption": "Office culture shots"
+        },
+        {
+          "id": "commercial_5_10",
+          "src": "/VMC02915.jpg",
+          "alt": "Team building",
+          "caption": "Team building activities"
+        },
+        {
+          "id": "commercial_5_11",
+          "src": "/VMC02918.jpg",
+          "alt": "Product showcase",
+          "caption": "Product showcase photography"
+        },
+        {
+          "id": "commercial_5_12",
+          "src": "/VMC03044.jpg",
+          "alt": "Final team photo",
+          "caption": "Perfect team photo"
+        }
+      ],
+      "testimonial": {
+        "text": "Professional team photos that perfectly represent our company culture.",
+        "author": "TechStart Inc.",
+        "rating": 5
+      },
+      "tags": ["commercial", "corporate", "team", "tech", "startup"]
+    },
+    {
+      "id": 6,
+      "title": "Rohan & Priya's Engagement",
+      "category": "weddings",
+      "slug": "wedding/rohan-priya",
+      "thumbnail": "/VMC03054.jpg",
+      "description": "Pre-wedding photoshoot at a scenic beach",
+      "location": "Goa Beach",
+      "date": "January 2025",
+      "client": "Rohan & Priya",
+      "duration": "Half Day",
+      "services": ["Engagement Shoot", "Location Photography", "Couple Portraits"],
+      "photos": [
+        {
+          "id": "engagement_6_1",
+          "src": "/VMC03054.jpg",
+          "alt": "Beach engagement",
+          "caption": "Romantic beach engagement"
+        },
+        {
+          "id": "engagement_6_2",
+          "src": "/VMC03055.jpg",
+          "alt": "Couple portrait",
+          "caption": "Beautiful couple portrait"
+        },
+        {
+          "id": "engagement_6_3",
+          "src": "/VMC03069.jpg",
+          "alt": "Sunset moment",
+          "caption": "Perfect sunset moment"
+        },
+        {
+          "id": "engagement_6_4",
+          "src": "/character.jpg",
+          "alt": "Fun moments",
+          "caption": "Fun and playful moments"
+        },
+        {
+          "id": "engagement_6_5",
+          "src": "/home.jpg",
+          "alt": "Intimate moments",
+          "caption": "Intimate couple moments"
+        },
+        {
+          "id": "engagement_6_6",
+          "src": "/IMG_1896.jpg",
+          "alt": "Ring close-up",
+          "caption": "Engagement ring close-up"
+        },
+        {
+          "id": "engagement_6_7",
+          "src": "/memo.jpg",
+          "alt": "Candid moments",
+          "caption": "Natural candid moments"
+        },
+        {
+          "id": "engagement_6_8",
+          "src": "/White Simple Minimalist Happy Wedding Photo Collage_20250404_234036_0000.jpg",
+          "alt": "Photo collage",
+          "caption": "Engagement photo collage"
+        },
+        {
+          "id": "engagement_6_9",
+          "src": "/011A8486.jpg",
+          "alt": "Beach walk",
+          "caption": "Romantic beach walk"
+        },
+        {
+          "id": "engagement_6_10",
+          "src": "/0O0A0978.jpg",
+          "alt": "Water shots",
+          "caption": "Water and beach shots"
+        },
+        {
+          "id": "engagement_6_11",
+          "src": "/1747143850683.jpg",
+          "alt": "Final moments",
+          "caption": "Perfect ending to the shoot"
+        },
+        {
+          "id": "engagement_6_12",
+          "src": "/1B1A5671.jpg",
+          "alt": "Departure",
+          "caption": "Beautiful departure shot"
+        }
+      ],
+      "testimonial": {
+        "text": "Our engagement photos are absolutely magical! We couldn't be happier.",
+        "author": "Rohan & Priya",
+        "rating": 5
+      },
+      "tags": ["engagement", "beach", "romantic", "pre-wedding", "couple"]
+    }
+  ],
+  "metadata": {
+    "totalItems": 6,
+    "totalPhotos": 72,
+    "lastUpdated": "2025-01-15",
+    "version": "1.0.0"
+  }
+} 
