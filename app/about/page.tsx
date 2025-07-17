@@ -1,10 +1,12 @@
 "use client";
 
-import { motion, useScroll, useTransform } from "framer-motion";
+import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { useRef } from "react";
-import { Camera, Award, Users, MapPin } from "lucide-react";
+import { useRef, useState } from "react";
+import { Camera, Award, Users, MapPin, X, ZoomIn } from "lucide-react";
+import { Carousel } from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const milestones = [
   {
@@ -52,8 +54,38 @@ const funFacts = [
   }
 ];
 
+const certificates = [
+  {
+    src: "/certificates/123.jpg",
+    alt: "Professional Photography Certification",
+    title: "Professional Photography Certification",
+    description: "Advanced certification in professional photography techniques and artistry"
+  },
+  {
+    src: "/certificates/124.jpg",
+    alt: "Wedding Photography Excellence",
+    title: "Wedding Photography Excellence",
+    description: "Specialized certification in wedding and event photography"
+  },
+  {
+    src: "/certificates/125.jpg",
+    alt: "Portrait Photography Mastery",
+    title: "Portrait Photography Mastery",
+    description: "Master certification in portrait and lifestyle photography"
+  },
+  {
+    src: "/certificates/126.jpg",
+    alt: "International Photography Award",
+    title: "International Photography Award",
+    description: "Recognition for outstanding contribution to photography industry"
+  }
+];
+
 export default function AboutPage() {
   const containerRef = useRef<HTMLDivElement>(null);
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [currentImage, setCurrentImage] = useState(0);
+  
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start end", "end start"]
@@ -61,6 +93,15 @@ export default function AboutPage() {
   
   const y = useTransform(scrollYProgress, [0, 1], [0, 100]);
   const opacity = useTransform(scrollYProgress, [0, 0.5, 1], [0.6, 1, 0.6]);
+
+  const openLightbox = (index: number) => {
+    setCurrentImage(index);
+    setLightboxOpen(true);
+  };
+
+  const closeLightbox = () => {
+    setLightboxOpen(false);
+  };
 
   return (
     <div className="min-h-screen bg-background">
@@ -185,6 +226,149 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Certificates Section */}
+      <section className="py-20 px-4 bg-muted">
+        <div className="container mx-auto">
+          <motion.h2
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="font-playfair text-3xl md:text-4xl font-bold text-center mb-12"
+          >
+            Professional Certifications
+          </motion.h2>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="max-w-4xl mx-auto"
+          >
+            <Carousel
+              showArrows={true}
+              showStatus={false}
+              showIndicators={true}
+              infiniteLoop={true}
+              autoPlay={true}
+              interval={5000}
+              showThumbs={true}
+              className="carousel-root"
+              renderThumbs={() =>
+                certificates.map((certificate, index) => (
+                  <div key={index} className="cursor-pointer">
+                    <Image
+                      src={certificate.src}
+                      alt={certificate.alt}
+                      width={120}
+                      height={80}
+                      className="rounded-lg object-cover"
+                    />
+                  </div>
+                ))
+              }
+            >
+              {certificates.map((certificate, index) => (
+                <div key={index} className="relative group cursor-pointer">
+                  <div 
+                    className="relative rounded-2xl overflow-hidden"
+                    onClick={() => openLightbox(index)}
+                  >
+                    <Image
+                      src={certificate.src}
+                      alt={certificate.alt}
+                      width={600}
+                      height={400}
+                      className="rounded-2xl transition-transform duration-300 group-hover:scale-105 object-cover"
+                    />
+                    <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                      <div className="bg-white/20 backdrop-blur-sm p-4 rounded-full">
+                        <ZoomIn className="w-6 h-6 text-white" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="text-center mt-4">
+                    <h3 className="text-xl font-semibold mb-2">{certificate.title}</h3>
+                    <p className="text-muted-foreground">{certificate.description}</p>
+                  </div>
+                </div>
+              ))}
+            </Carousel>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Lightbox Modal */}
+      <AnimatePresence>
+        {lightboxOpen && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
+            onClick={closeLightbox}
+          >
+            <motion.div
+              initial={{ scale: 0.8, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.8, opacity: 0 }}
+              className="relative max-w-4xl w-full"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <button
+                onClick={closeLightbox}
+                className="absolute -top-12 right-0 text-white hover:text-gray-300 transition-colors"
+              >
+                <X size={32} />
+              </button>
+              
+              <div className="bg-white/10 backdrop-blur-sm p-4 rounded-2xl">
+                <Image
+                  src={certificates[currentImage].src}
+                  alt={certificates[currentImage].alt}
+                  width={900}
+                  height={600}
+                  className="rounded-xl w-full h-auto"
+                />
+              </div>
+              
+              <div className="text-center mt-6">
+                <h3 className="text-2xl font-bold text-white mb-2">
+                  {certificates[currentImage].title}
+                </h3>
+                <p className="text-white/70 text-lg">
+                  {certificates[currentImage].description}
+                </p>
+              </div>
+              
+              {/* Navigation arrows */}
+              <div className="absolute top-1/2 -translate-y-1/2 left-4">
+                <button
+                  onClick={() => setCurrentImage((prev) => (prev - 1 + certificates.length) % certificates.length)}
+                  className="bg-white/20 backdrop-blur-sm p-3 rounded-full hover:scale-110 transition-transform"
+                >
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+                  </svg>
+                </button>
+              </div>
+              
+              <div className="absolute top-1/2 -translate-y-1/2 right-4">
+                <button
+                  onClick={() => setCurrentImage((prev) => (prev + 1) % certificates.length)}
+                  className="bg-white/20 backdrop-blur-sm p-3 rounded-full hover:scale-110 transition-transform"
+                >
+                  <svg className="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                </button>
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       {/* Fun Facts Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
@@ -216,6 +400,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      
 
       {/* CTA Section */}
       <section className="py-20 px-4 bg-muted">

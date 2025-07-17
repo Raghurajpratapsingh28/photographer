@@ -24,6 +24,7 @@ const navLinks: NavItem[] = [
   { name: "Services", href: "/services" },
   { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
+  { name: "Gallery", href: "/gallery" },
 ];
 
 export default function Navbar() {
@@ -86,7 +87,7 @@ export default function Navbar() {
                         "flex items-center text-sm font-medium transition-colors hover:text-primary",
                         pathname.startsWith(link.href)
                           ? "text-primary"
-                          : "text-foreground"
+                          : "text-gray-500 dark:text-foreground"
                       )}
                     >
                       {link.name}
@@ -122,7 +123,7 @@ export default function Navbar() {
                       "text-sm font-medium transition-colors hover:text-primary relative",
                       pathname === link.href
                         ? "text-primary"
-                        : "text-foreground"
+                        : "text-gray-500 dark:text-foreground"
                     )}
                   >
                     {link.name}
@@ -230,7 +231,7 @@ export default function Navbar() {
                         "block py-2 text-base font-medium hover:text-primary transition-colors",
                         pathname === link.href
                           ? "text-primary"
-                          : "text-foreground"
+                          : "text-gray-500 dark:text-foreground"
                       )}
                       onClick={() => setIsMobileMenuOpen(false)}
                     >
