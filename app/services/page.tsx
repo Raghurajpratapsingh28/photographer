@@ -96,16 +96,16 @@ export default function ServicesPage() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="relative h-[50vh] overflow-hidden">
+      <section className="relative h-screen w-full overflow-hidden">
         <Image
           src="https://images.pexels.com/photos/3584924/pexels-photo-3584924.jpeg"
           alt="Services hero"
           fill
           className="object-cover"
+          priority
         />
         <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
-        
-        <div className="relative h-full flex items-center justify-center text-center">
+        <div className="relative h-full flex items-center justify-center text-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

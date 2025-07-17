@@ -1,9 +1,9 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
+import { motion, useScroll, useTransform } from "framer-motion";
 import { 
   getAllPortfolioItems, 
   getAllCategories, 
@@ -18,6 +18,11 @@ const categories = getAllCategories();
 
 export default function PortfolioPage() {
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
+
+  // Parallax setup
+  const heroRef = useRef<HTMLDivElement>(null);
+  const { scrollY } = useScroll();
+  const y = useTransform(scrollY, [0, 400], [0, 100]);
 
   const filteredItems = selectedCategory === "all"
     ? portfolioItems
@@ -44,17 +49,22 @@ export default function PortfolioPage() {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Hero Section */}
-      <section className="relative h-[50vh] overflow-hidden">
-        <Image
-          src="https://images.pexels.com/photos/1813922/pexels-photo-1813922.jpeg"
-          alt="Portfolio hero"
-          fill
-          className="object-cover"
-        />
+      {/* Hero Section with Parallax */}
+      <section ref={heroRef} className="relative h-screen w-full overflow-hidden">
+        <motion.div
+          style={{ y }}
+          className="absolute inset-0 w-full h-full"
+        >
+          <Image
+            src="https://images.pexels.com/photos/1813922/pexels-photo-1813922.jpeg"
+            alt="Portfolio hero"
+            fill
+            className="object-cover"
+            priority
+          />
+        </motion.div>
         <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
-        
-        <div className="relative h-full flex items-center justify-center text-center">
+        <div className="relative h-full flex items-center justify-center text-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}

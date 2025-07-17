@@ -107,16 +107,8 @@ export default function AboutPage() {
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative h-[70vh] overflow-hidden" ref={containerRef}>
-        <motion.div style={{ y, opacity }} className="absolute inset-0">
-          <Image
-            src="https://images.pexels.com/photos/3584924/pexels-photo-3584924.jpeg"
-            alt="Photographer at work"
-            fill
-            className="object-cover"
-          />
-          <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
-        </motion.div>
-        
+        {/* Removed hero image */}
+        <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
         <div className="relative h-full flex items-center justify-center text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

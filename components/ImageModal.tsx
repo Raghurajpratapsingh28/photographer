@@ -14,11 +14,13 @@ interface ImageModalProps {
 
 const ImageModal = ({ images, currentIndex, isOpen, onClose, onNavigate }: ImageModalProps) => {
   const [isLoading, setIsLoading] = useState(true);
+  const [hasError, setHasError] = useState(false);
 
   useEffect(() => {
     if (isOpen) {
       document.body.style.overflow = 'hidden';
       setIsLoading(true);
+      setHasError(false);
     } else {
       document.body.style.overflow = 'unset';
     }
@@ -59,10 +61,17 @@ const ImageModal = ({ images, currentIndex, isOpen, onClose, onNavigate }: Image
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-95">
+      {/* Click outside to close (behind modal content) */}
+      <div
+        className="absolute inset-0 -z-10 cursor-pointer"
+        onClick={onClose}
+        aria-label="Close modal"
+      />
+
       {/* Close button */}
       <button
         onClick={onClose}
-        className="absolute top-4 right-4 z-10 p-2 text-white hover:text-gray-300 transition-colors"
+        className="absolute top-4 right-4 z-20 p-2 text-white hover:text-gray-300 transition-colors"
         aria-label="Close modal"
       >
         <X size={24} />
@@ -72,7 +81,7 @@ const ImageModal = ({ images, currentIndex, isOpen, onClose, onNavigate }: Image
       {currentIndex > 0 && (
         <button
           onClick={() => onNavigate(currentIndex - 1)}
-          className="absolute left-4 top-1/2 -translate-y-1/2 z-10 p-2 text-white hover:text-gray-300 transition-colors"
+          className="absolute left-4 top-1/2 -translate-y-1/2 z-20 p-2 text-white hover:text-gray-300 transition-colors"
           aria-label="Previous image"
         >
           <ChevronLeft size={32} />
@@ -82,7 +91,7 @@ const ImageModal = ({ images, currentIndex, isOpen, onClose, onNavigate }: Image
       {currentIndex < images.length - 1 && (
         <button
           onClick={() => onNavigate(currentIndex + 1)}
-          className="absolute right-4 top-1/2 -translate-y-1/2 z-10 p-2 text-white hover:text-gray-300 transition-colors"
+          className="absolute right-4 top-1/2 -translate-y-1/2 z-20 p-2 text-white hover:text-gray-300 transition-colors"
           aria-label="Next image"
         >
           <ChevronRight size={32} />
@@ -90,20 +99,33 @@ const ImageModal = ({ images, currentIndex, isOpen, onClose, onNavigate }: Image
       )}
 
       {/* Image container */}
-      <div className="relative w-full h-full flex items-center justify-center p-4">
-        <div className="relative max-w-full max-h-full">
-          <Image
-            src={currentImage.url}
-            alt={`Gallery image ${currentIndex + 1}`}
-            width={1200}
-            height={800}
-            className={`max-w-full max-h-full object-contain transition-opacity duration-300 ${
-              isLoading ? 'opacity-0' : 'opacity-100'
-            }`}
-            onLoad={() => setIsLoading(false)}
-            priority
-          />
-          {isLoading && (
+      <div className="relative flex items-center justify-center w-full h-full p-4">
+        <div className="relative max-w-4xl max-h-[80vh] w-full h-auto flex items-center justify-center">
+          {!hasError ? (
+            <Image
+              src={currentImage.url}
+              alt={`Gallery image ${currentIndex + 1}`}
+              width={1200}
+              height={800}
+              className={`max-w-full max-h-[80vh] object-contain transition-opacity duration-300 ${
+                isLoading ? 'opacity-0' : 'opacity-100'
+              }`}
+              onLoad={() => setIsLoading(false)}
+              onError={() => { setIsLoading(false); setHasError(true); }}
+              priority
+            />
+          ) : (
+            <div className="flex flex-col items-center justify-center w-full h-[40vh] text-white">
+              <span className="text-lg mb-2">Image failed to load.</span>
+              <button
+                className="px-4 py-2 bg-white text-black rounded hover:bg-gray-200"
+                onClick={() => { setIsLoading(true); setHasError(false); }}
+              >
+                Retry
+              </button>
+            </div>
+          )}
+          {isLoading && !hasError && (
             <div className="absolute inset-0 flex items-center justify-center">
               <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-white"></div>
             </div>
@@ -112,16 +134,9 @@ const ImageModal = ({ images, currentIndex, isOpen, onClose, onNavigate }: Image
       </div>
 
       {/* Image counter */}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm">
+      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white text-sm z-20">
         {currentIndex + 1} / {images.length}
       </div>
-
-      {/* Click outside to close */}
-      <div
-        className="absolute inset-0 -z-10"
-        onClick={onClose}
-        aria-label="Close modal"
-      />
     </div>
   );
 };
