@@ -33,7 +33,7 @@ export interface PortfolioItem {
   duration: string;
   services: string[];
   photos: Photo[];
-  testimonial: Testimonial;
+  testimonial: Testimonial | null;
   tags: string[];
 }
 
@@ -141,7 +141,7 @@ export const getRelatedPortfolioItems = (currentItem: PortfolioItem, limit: numb
 export const getPortfolioStats = () => {
   const data = getPortfolioData();
   const items = getAllPortfolioItems();
-  
+
   const statsByCategory = data.categories.map(category => {
     const categoryItems = items.filter(item => item.category === category.id);
     return {
@@ -150,12 +150,18 @@ export const getPortfolioStats = () => {
       totalPhotos: categoryItems.reduce((sum, item) => sum + item.photos.length, 0)
     };
   });
-  
+
+  // Only count items with a testimonial for averageRating
+  const itemsWithRating = items.filter(item => item.testimonial && typeof item.testimonial.rating === 'number');
+  const averageRating = itemsWithRating.length > 0
+    ? itemsWithRating.reduce((sum, item) => sum + (item.testimonial?.rating || 0), 0) / itemsWithRating.length
+    : 0;
+
   return {
     totalItems: data.metadata.totalItems,
     totalPhotos: data.metadata.totalPhotos,
     categories: statsByCategory,
-    averageRating: items.reduce((sum, item) => sum + item.testimonial.rating, 0) / items.length
+    averageRating
   };
 };
 
@@ -163,16 +169,16 @@ export const getPortfolioStats = () => {
 export const validatePortfolioData = (): { isValid: boolean; errors: string[] } => {
   const errors: string[] = [];
   const data = getPortfolioData();
-  
+
   // Check if all required fields exist
   if (!data.portfolioItems || !Array.isArray(data.portfolioItems)) {
     errors.push('Portfolio items array is missing or invalid');
   }
-  
+
   if (!data.categories || !Array.isArray(data.categories)) {
     errors.push('Categories array is missing or invalid');
   }
-  
+
   // Validate each portfolio item
   data.portfolioItems?.forEach((item, index) => {
     if (!item.slug) errors.push(`Portfolio item ${index + 1}: Missing slug`);
@@ -180,11 +186,9 @@ export const validatePortfolioData = (): { isValid: boolean; errors: string[] } 
     if (!item.photos || item.photos.length === 0) {
       errors.push(`Portfolio item ${index + 1}: No photos found`);
     }
-    if (item.photos && item.photos.length !== 12) {
-      errors.push(`Portfolio item ${index + 1}: Expected 12 photos, found ${item.photos.length}`);
-    }
+    // Removed strict photo count check
   });
-  
+
   return {
     isValid: errors.length === 0,
     errors

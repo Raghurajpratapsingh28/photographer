@@ -34,567 +34,1429 @@
   "portfolioItems": [
     {
       "id": 1,
-      "title": "Anira & Raj's Wedding",
+      "title": "Ashish & Samiksha",
       "category": "weddings",
-      "slug": "wedding/anira-and-raj",
-      "thumbnail": "/VMC03144.jpg",
-      "description": "A beautiful fusion wedding celebrating love, tradition, and family",
-      "location": "The Grand Pavilion, Mumbai",
-      "date": "March 2025",
-      "client": "Anira & Raj",
-      "duration": "Full Day",
-      "services": ["Wedding Ceremony", "Reception", "Pre-wedding Shoot"],
+      "slug": "wedding/Ashish-Samiksha",
+      "thumbnail": "/Ashish-Samiksha/AS1.jpg",
+      "description": "Ashish & Samiksha photo collection",
+      "location": "",
+      "date": "",
+      "client": "Ashish & Samiksha",
+      "duration": "",
+      "services": [],
       "photos": [
         {
-          "id": "wedding_1_1",
-          "src": "/VMC03144.jpg",
-          "alt": "Wedding ceremony moment",
-          "caption": "The beautiful ceremony begins"
+          "id": "ashishsamiksha_1",
+          "src": "/Ashish-Samiksha/AS1.jpg",
+          "alt": "Ashish & Samiksha photo 1",
+          "caption": "Ashish & Samiksha - Photo 1"
         },
         {
-          "id": "wedding_1_2",
-          "src": "/VMC03145.jpg",
-          "alt": "Couple portrait",
-          "caption": "Anira and Raj's first portrait as newlyweds"
+          "id": "ashishsamiksha_2",
+          "src": "/Ashish-Samiksha/AS10.jpg",
+          "alt": "Ashish & Samiksha photo 2",
+          "caption": "Ashish & Samiksha - Photo 2"
         },
         {
-          "id": "wedding_1_3",
-          "src": "/VMC03146.jpg",
-          "alt": "Family gathering",
-          "caption": "Family celebration"
+          "id": "ashishsamiksha_3",
+          "src": "/Ashish-Samiksha/AS11.jpg",
+          "alt": "Ashish & Samiksha photo 3",
+          "caption": "Ashish & Samiksha - Photo 3"
         },
         {
-          "id": "wedding_1_4",
-          "src": "/VMC03152.jpg",
-          "alt": "Reception celebration",
-          "caption": "Joyful reception moments"
+          "id": "ashishsamiksha_4",
+          "src": "/Ashish-Samiksha/AS12.jpg",
+          "alt": "Ashish & Samiksha photo 4",
+          "caption": "Ashish & Samiksha - Photo 4"
         },
         {
-          "id": "wedding_1_5",
-          "src": "/VMC03154.jpg",
-          "alt": "Dance performance",
-          "caption": "Traditional dance performance"
+          "id": "ashishsamiksha_5",
+          "src": "/Ashish-Samiksha/AS13.jpg",
+          "alt": "Ashish & Samiksha photo 5",
+          "caption": "Ashish & Samiksha - Photo 5"
         },
         {
-          "id": "wedding_1_6",
-          "src": "/VMC03176.jpg",
-          "alt": "Couple dance",
-          "caption": "First dance as husband and wife"
+          "id": "ashishsamiksha_6",
+          "src": "/Ashish-Samiksha/AS14.jpg",
+          "alt": "Ashish & Samiksha photo 6",
+          "caption": "Ashish & Samiksha - Photo 6"
         },
         {
-          "id": "wedding_1_7",
-          "src": "/VMC03181.jpg",
-          "alt": "Group photo",
-          "caption": "Family and friends celebration"
+          "id": "ashishsamiksha_7",
+          "src": "/Ashish-Samiksha/AS15.jpg",
+          "alt": "Ashish & Samiksha photo 7",
+          "caption": "Ashish & Samiksha - Photo 7"
         },
         {
-          "id": "wedding_1_8",
-          "src": "/VMC03210.jpg",
-          "alt": "Cake cutting",
-          "caption": "Wedding cake cutting ceremony"
+          "id": "ashishsamiksha_8",
+          "src": "/Ashish-Samiksha/AS16.jpg",
+          "alt": "Ashish & Samiksha photo 8",
+          "caption": "Ashish & Samiksha - Photo 8"
         },
         {
-          "id": "wedding_1_9",
-          "src": "/VMC03322.jpg",
-          "alt": "Evening celebration",
-          "caption": "Evening reception festivities"
+          "id": "ashishsamiksha_9",
+          "src": "/Ashish-Samiksha/AS17.jpg",
+          "alt": "Ashish & Samiksha photo 9",
+          "caption": "Ashish & Samiksha - Photo 9"
         },
         {
-          "id": "wedding_1_10",
-          "src": "/VMC03327.jpg",
-          "alt": "Fireworks display",
-          "caption": "Magical fireworks display"
+          "id": "ashishsamiksha_10",
+          "src": "/Ashish-Samiksha/AS18.jpg",
+          "alt": "Ashish & Samiksha photo 10",
+          "caption": "Ashish & Samiksha - Photo 10"
         },
         {
-          "id": "wedding_1_11",
-          "src": "/VMC03370.jpg",
-          "alt": "Final moments",
-          "caption": "Perfect ending to a perfect day"
+          "id": "ashishsamiksha_11",
+          "src": "/Ashish-Samiksha/AS19.jpg",
+          "alt": "Ashish & Samiksha photo 11",
+          "caption": "Ashish & Samiksha - Photo 11"
         },
         {
-          "id": "wedding_1_12",
-          "src": "/VMC03373.jpg",
-          "alt": "Departure",
-          "caption": "Bride and groom's departure"
+          "id": "ashishsamiksha_12",
+          "src": "/Ashish-Samiksha/AS2.jpg",
+          "alt": "Ashish & Samiksha photo 12",
+          "caption": "Ashish & Samiksha - Photo 12"
+        },
+        {
+          "id": "ashishsamiksha_13",
+          "src": "/Ashish-Samiksha/AS20.jpg",
+          "alt": "Ashish & Samiksha photo 13",
+          "caption": "Ashish & Samiksha - Photo 13"
+        },
+        {
+          "id": "ashishsamiksha_14",
+          "src": "/Ashish-Samiksha/AS21.jpg",
+          "alt": "Ashish & Samiksha photo 14",
+          "caption": "Ashish & Samiksha - Photo 14"
+        },
+        {
+          "id": "ashishsamiksha_15",
+          "src": "/Ashish-Samiksha/AS22.jpg",
+          "alt": "Ashish & Samiksha photo 15",
+          "caption": "Ashish & Samiksha - Photo 15"
+        },
+        {
+          "id": "ashishsamiksha_16",
+          "src": "/Ashish-Samiksha/AS23.jpg",
+          "alt": "Ashish & Samiksha photo 16",
+          "caption": "Ashish & Samiksha - Photo 16"
+        },
+        {
+          "id": "ashishsamiksha_17",
+          "src": "/Ashish-Samiksha/AS24.jpg",
+          "alt": "Ashish & Samiksha photo 17",
+          "caption": "Ashish & Samiksha - Photo 17"
+        },
+        {
+          "id": "ashishsamiksha_18",
+          "src": "/Ashish-Samiksha/AS25.jpg",
+          "alt": "Ashish & Samiksha photo 18",
+          "caption": "Ashish & Samiksha - Photo 18"
+        },
+        {
+          "id": "ashishsamiksha_19",
+          "src": "/Ashish-Samiksha/AS26.jpg",
+          "alt": "Ashish & Samiksha photo 19",
+          "caption": "Ashish & Samiksha - Photo 19"
+        },
+        {
+          "id": "ashishsamiksha_20",
+          "src": "/Ashish-Samiksha/AS27.jpg",
+          "alt": "Ashish & Samiksha photo 20",
+          "caption": "Ashish & Samiksha - Photo 20"
+        },
+        {
+          "id": "ashishsamiksha_21",
+          "src": "/Ashish-Samiksha/AS28.jpg",
+          "alt": "Ashish & Samiksha photo 21",
+          "caption": "Ashish & Samiksha - Photo 21"
+        },
+        {
+          "id": "ashishsamiksha_22",
+          "src": "/Ashish-Samiksha/AS29.jpg",
+          "alt": "Ashish & Samiksha photo 22",
+          "caption": "Ashish & Samiksha - Photo 22"
+        },
+        {
+          "id": "ashishsamiksha_23",
+          "src": "/Ashish-Samiksha/AS3.jpg",
+          "alt": "Ashish & Samiksha photo 23",
+          "caption": "Ashish & Samiksha - Photo 23"
+        },
+        {
+          "id": "ashishsamiksha_24",
+          "src": "/Ashish-Samiksha/AS30.jpg",
+          "alt": "Ashish & Samiksha photo 24",
+          "caption": "Ashish & Samiksha - Photo 24"
+        },
+        {
+          "id": "ashishsamiksha_25",
+          "src": "/Ashish-Samiksha/AS31.jpg",
+          "alt": "Ashish & Samiksha photo 25",
+          "caption": "Ashish & Samiksha - Photo 25"
+        },
+        {
+          "id": "ashishsamiksha_26",
+          "src": "/Ashish-Samiksha/AS32.jpg",
+          "alt": "Ashish & Samiksha photo 26",
+          "caption": "Ashish & Samiksha - Photo 26"
+        },
+        {
+          "id": "ashishsamiksha_27",
+          "src": "/Ashish-Samiksha/AS33.jpg",
+          "alt": "Ashish & Samiksha photo 27",
+          "caption": "Ashish & Samiksha - Photo 27"
+        },
+        {
+          "id": "ashishsamiksha_28",
+          "src": "/Ashish-Samiksha/AS34.jpg",
+          "alt": "Ashish & Samiksha photo 28",
+          "caption": "Ashish & Samiksha - Photo 28"
+        },
+        {
+          "id": "ashishsamiksha_29",
+          "src": "/Ashish-Samiksha/AS35.jpg",
+          "alt": "Ashish & Samiksha photo 29",
+          "caption": "Ashish & Samiksha - Photo 29"
+        },
+        {
+          "id": "ashishsamiksha_30",
+          "src": "/Ashish-Samiksha/AS36.jpg",
+          "alt": "Ashish & Samiksha photo 30",
+          "caption": "Ashish & Samiksha - Photo 30"
+        },
+        {
+          "id": "ashishsamiksha_31",
+          "src": "/Ashish-Samiksha/AS37.jpg",
+          "alt": "Ashish & Samiksha photo 31",
+          "caption": "Ashish & Samiksha - Photo 31"
+        },
+        {
+          "id": "ashishsamiksha_32",
+          "src": "/Ashish-Samiksha/AS4.jpg",
+          "alt": "Ashish & Samiksha photo 32",
+          "caption": "Ashish & Samiksha - Photo 32"
+        },
+        {
+          "id": "ashishsamiksha_33",
+          "src": "/Ashish-Samiksha/AS5.jpg",
+          "alt": "Ashish & Samiksha photo 33",
+          "caption": "Ashish & Samiksha - Photo 33"
+        },
+        {
+          "id": "ashishsamiksha_34",
+          "src": "/Ashish-Samiksha/AS6.jpg",
+          "alt": "Ashish & Samiksha photo 34",
+          "caption": "Ashish & Samiksha - Photo 34"
+        },
+        {
+          "id": "ashishsamiksha_35",
+          "src": "/Ashish-Samiksha/AS7.jpg",
+          "alt": "Ashish & Samiksha photo 35",
+          "caption": "Ashish & Samiksha - Photo 35"
+        },
+        {
+          "id": "ashishsamiksha_36",
+          "src": "/Ashish-Samiksha/AS8.jpg",
+          "alt": "Ashish & Samiksha photo 36",
+          "caption": "Ashish & Samiksha - Photo 36"
+        },
+        {
+          "id": "ashishsamiksha_37",
+          "src": "/Ashish-Samiksha/AS9.jpg",
+          "alt": "Ashish & Samiksha photo 37",
+          "caption": "Ashish & Samiksha - Photo 37"
         }
       ],
-      "testimonial": {
-        "text": "The photography was absolutely stunning! Every moment was captured beautifully.",
-        "author": "Anira & Raj",
-        "rating": 5
-      },
-      "tags": ["wedding", "fusion", "traditional", "celebration", "family"]
+      "testimonial": null,
+      "tags": []
     },
     {
       "id": 2,
-      "title": "Professional Portraits",
-      "category": "portraits",
-      "slug": "portraits",
-      "thumbnail": "/1B1A0396.jpg",
-      "description": "Professional portrait sessions capturing your unique personality",
-      "location": "Luxe Studio",
-      "date": "May 2025",
-      "client": "Various Clients",
-      "duration": "2-3 Hours",
-      "services": ["Studio Portraits", "Outdoor Portraits", "Professional Headshots"],
+      "title": "Aviral & Laxmi",
+      "category": "weddings",
+      "slug": "wedding/Aviral-Laxmi",
+      "thumbnail": "/Aviral-Laxmi/011A8485.jpg",
+      "description": "Aviral & Laxmi photo collection",
+      "location": "",
+      "date": "",
+      "client": "Aviral & Laxmi",
+      "duration": "",
+      "services": [],
       "photos": [
         {
-          "id": "portrait_2_1",
-          "src": "/1B1A0396.jpg",
-          "alt": "Professional headshot",
-          "caption": "Corporate headshot session"
+          "id": "avirallaxmi_1",
+          "src": "/Aviral-Laxmi/011A8485.jpg",
+          "alt": "Aviral & Laxmi photo 1",
+          "caption": "Aviral & Laxmi - Photo 1"
         },
         {
-          "id": "portrait_2_2",
-          "src": "/1B1A0398 (2).jpg",
-          "alt": "Studio portrait",
-          "caption": "Elegant studio lighting"
+          "id": "avirallaxmi_2",
+          "src": "/Aviral-Laxmi/011A8486.jpg",
+          "alt": "Aviral & Laxmi photo 2",
+          "caption": "Aviral & Laxmi - Photo 2"
         },
         {
-          "id": "portrait_2_3",
-          "src": "/1B1A0405.jpg",
-          "alt": "Outdoor portrait",
-          "caption": "Natural outdoor lighting"
+          "id": "avirallaxmi_3",
+          "src": "/Aviral-Laxmi/011A8488 (1).jpg",
+          "alt": "Aviral & Laxmi photo 3",
+          "caption": "Aviral & Laxmi - Photo 3"
         },
         {
-          "id": "portrait_2_4",
-          "src": "/1B1A0420.jpg",
-          "alt": "Creative portrait",
-          "caption": "Creative composition"
+          "id": "avirallaxmi_4",
+          "src": "/Aviral-Laxmi/IMG_2263.jpg",
+          "alt": "Aviral & Laxmi photo 4",
+          "caption": "Aviral & Laxmi - Photo 4"
         },
         {
-          "id": "portrait_2_5",
-          "src": "/1B1A0944.jpg",
-          "alt": "Family portrait",
-          "caption": "Family portrait session"
+          "id": "avirallaxmi_5",
+          "src": "/Aviral-Laxmi/IMG_2266.jpg",
+          "alt": "Aviral & Laxmi photo 5",
+          "caption": "Aviral & Laxmi - Photo 5"
         },
         {
-          "id": "portrait_2_6",
-          "src": "/1B1A0951.jpg",
-          "alt": "Couple portrait",
-          "caption": "Couple portrait session"
+          "id": "avirallaxmi_6",
+          "src": "/Aviral-Laxmi/IMG_2290.jpg",
+          "alt": "Aviral & Laxmi photo 6",
+          "caption": "Aviral & Laxmi - Photo 6"
         },
         {
-          "id": "portrait_2_7",
-          "src": "/1B1A1411.jpg",
-          "alt": "Senior portrait",
-          "caption": "Senior year portrait"
+          "id": "avirallaxmi_7",
+          "src": "/Aviral-Laxmi/IMG_2298.jpg",
+          "alt": "Aviral & Laxmi photo 7",
+          "caption": "Aviral & Laxmi - Photo 7"
         },
         {
-          "id": "portrait_2_8",
-          "src": "/1B1A3453.jpg",
-          "alt": "Maternity portrait",
-          "caption": "Maternity photography"
+          "id": "avirallaxmi_8",
+          "src": "/Aviral-Laxmi/IMG_2301 (1).jpg",
+          "alt": "Aviral & Laxmi photo 8",
+          "caption": "Aviral & Laxmi - Photo 8"
         },
         {
-          "id": "portrait_2_9",
-          "src": "/1B1A3469.jpg",
-          "alt": "Newborn portrait",
-          "caption": "Newborn photography session"
+          "id": "avirallaxmi_9",
+          "src": "/Aviral-Laxmi/IMG_2303.jpg",
+          "alt": "Aviral & Laxmi photo 9",
+          "caption": "Aviral & Laxmi - Photo 9"
         },
         {
-          "id": "portrait_2_10",
-          "src": "/1B1A3496.jpg",
-          "alt": "Children portrait",
-          "caption": "Children's portrait session"
+          "id": "avirallaxmi_10",
+          "src": "/Aviral-Laxmi/IMG_2304.jpg",
+          "alt": "Aviral & Laxmi photo 10",
+          "caption": "Aviral & Laxmi - Photo 10"
         },
         {
-          "id": "portrait_2_11",
-          "src": "/1B1A4151.jpg",
-          "alt": "Artistic portrait",
-          "caption": "Artistic portrait photography"
+          "id": "avirallaxmi_11",
+          "src": "/Aviral-Laxmi/IMG_2305.jpg",
+          "alt": "Aviral & Laxmi photo 11",
+          "caption": "Aviral & Laxmi - Photo 11"
         },
         {
-          "id": "portrait_2_12",
-          "src": "/1B1A5664.jpg",
-          "alt": "Lifestyle portrait",
-          "caption": "Lifestyle portrait session"
+          "id": "avirallaxmi_12",
+          "src": "/Aviral-Laxmi/IMG_2308.jpg",
+          "alt": "Aviral & Laxmi photo 12",
+          "caption": "Aviral & Laxmi - Photo 12"
+        },
+        {
+          "id": "avirallaxmi_13",
+          "src": "/Aviral-Laxmi/IMG_2313 (1).jpg",
+          "alt": "Aviral & Laxmi photo 13",
+          "caption": "Aviral & Laxmi - Photo 13"
+        },
+        {
+          "id": "avirallaxmi_14",
+          "src": "/Aviral-Laxmi/IMG_2316.jpg",
+          "alt": "Aviral & Laxmi photo 14",
+          "caption": "Aviral & Laxmi - Photo 14"
+        },
+        {
+          "id": "avirallaxmi_15",
+          "src": "/Aviral-Laxmi/IMG_2317.jpg",
+          "alt": "Aviral & Laxmi photo 15",
+          "caption": "Aviral & Laxmi - Photo 15"
+        },
+        {
+          "id": "avirallaxmi_16",
+          "src": "/Aviral-Laxmi/IMG_2321.jpg",
+          "alt": "Aviral & Laxmi photo 16",
+          "caption": "Aviral & Laxmi - Photo 16"
+        },
+        {
+          "id": "avirallaxmi_17",
+          "src": "/Aviral-Laxmi/IMG_2327.jpg",
+          "alt": "Aviral & Laxmi photo 17",
+          "caption": "Aviral & Laxmi - Photo 17"
+        },
+        {
+          "id": "avirallaxmi_18",
+          "src": "/Aviral-Laxmi/IMG_2328 (1).jpg",
+          "alt": "Aviral & Laxmi photo 18",
+          "caption": "Aviral & Laxmi - Photo 18"
+        },
+        {
+          "id": "avirallaxmi_19",
+          "src": "/Aviral-Laxmi/IMG_2333 (1).jpg",
+          "alt": "Aviral & Laxmi photo 19",
+          "caption": "Aviral & Laxmi - Photo 19"
+        },
+        {
+          "id": "avirallaxmi_20",
+          "src": "/Aviral-Laxmi/IMG_2336 (1).jpg",
+          "alt": "Aviral & Laxmi photo 20",
+          "caption": "Aviral & Laxmi - Photo 20"
         }
       ],
-      "testimonial": {
-        "text": "The portraits exceeded our expectations. Professional and creative!",
-        "author": "Sarah Johnson",
-        "rating": 5
-      },
-      "tags": ["portraits", "studio", "professional", "headshots", "family"]
+      "testimonial": null,
+      "tags": []
     },
     {
       "id": 3,
-      "title": "Annual Charity Gala",
-      "category": "events",
-      "slug": "events/charity-gala",
-      "thumbnail": "/IMG_2167.jpg",
-      "description": "Documenting a high-profile charity event",
-      "location": "Grand Hyatt",
-      "date": "April 2025",
-      "client": "Charity Foundation",
-      "duration": "Evening Event",
-      "services": ["Event Coverage", "Candid Photography", "Group Photos"],
+      "title": "INGAGE",
+      "category": "weddings",
+      "slug": "wedding/ingage",
+      "thumbnail": "/INGAGE/1B1A9114.jpg",
+      "description": "INGAGE photo collection",
+      "location": "",
+      "date": "",
+      "client": "INGAGE",
+      "duration": "",
+      "services": [],
       "photos": [
         {
-          "id": "event_3_1",
-          "src": "/IMG_2167.jpg",
-          "alt": "Gala entrance",
-          "caption": "Elegant gala entrance"
+          "id": "ingage_1",
+          "src": "/INGAGE/1B1A9114.jpg",
+          "alt": "INGAGE photo 1",
+          "caption": "INGAGE - Photo 1"
         },
         {
-          "id": "event_3_2",
-          "src": "/IMG_2263.jpg",
-          "alt": "Guest arrivals",
-          "caption": "Distinguished guests arriving"
+          "id": "ingage_2",
+          "src": "/INGAGE/1B1A9124.jpg",
+          "alt": "INGAGE photo 2",
+          "caption": "INGAGE - Photo 2"
         },
         {
-          "id": "event_3_3",
-          "src": "/IMG_2298.jpg",
-          "alt": "Cocktail hour",
-          "caption": "Cocktail hour networking"
+          "id": "ingage_3",
+          "src": "/INGAGE/1B1A9139 (1).jpg",
+          "alt": "INGAGE photo 3",
+          "caption": "INGAGE - Photo 3"
         },
         {
-          "id": "event_3_4",
-          "src": "/IMG_2304.jpg",
-          "alt": "Dinner service",
-          "caption": "Elegant dinner service"
+          "id": "ingage_4",
+          "src": "/INGAGE/1B1A9142.jpg",
+          "alt": "INGAGE photo 4",
+          "caption": "INGAGE - Photo 4"
         },
         {
-          "id": "event_3_5",
-          "src": "/IMG_2308.jpg",
-          "alt": "Auction items",
-          "caption": "Silent auction display"
+          "id": "ingage_5",
+          "src": "/INGAGE/1B1A9146 (1).jpg",
+          "alt": "INGAGE photo 5",
+          "caption": "INGAGE - Photo 5"
         },
         {
-          "id": "event_3_6",
-          "src": "/IMG_2316.jpg",
-          "alt": "Live auction",
-          "caption": "Live auction excitement"
+          "id": "ingage_6",
+          "src": "/INGAGE/1B1A9151.jpg",
+          "alt": "INGAGE photo 6",
+          "caption": "INGAGE - Photo 6"
         },
         {
-          "id": "event_3_7",
-          "src": "/IMG_2327.jpg",
-          "alt": "Award ceremony",
-          "caption": "Award presentation"
+          "id": "ingage_7",
+          "src": "/INGAGE/1B1A9262.jpg",
+          "alt": "INGAGE photo 7",
+          "caption": "INGAGE - Photo 7"
         },
         {
-          "id": "event_3_8",
-          "src": "/IMG_2328 (1).jpg",
-          "alt": "Entertainment",
-          "caption": "Live entertainment"
+          "id": "ingage_8",
+          "src": "/INGAGE/1B1A9272.jpg",
+          "alt": "INGAGE photo 8",
+          "caption": "INGAGE - Photo 8"
         },
         {
-          "id": "event_3_9",
-          "src": "/IMG_0474.jpg",
-          "alt": "Group photos",
-          "caption": "Group photo session"
+          "id": "ingage_9",
+          "src": "/INGAGE/1B1A9288 (1).jpg",
+          "alt": "INGAGE photo 9",
+          "caption": "INGAGE - Photo 9"
         },
         {
-          "id": "event_3_10",
-          "src": "/IMG_1658.jpg",
-          "alt": "Dancing",
-          "caption": "Dance floor celebration"
+          "id": "ingage_10",
+          "src": "/INGAGE/1B1A9468.jpg",
+          "alt": "INGAGE photo 10",
+          "caption": "INGAGE - Photo 10"
         },
         {
-          "id": "event_3_11",
-          "src": "/IMG_1683 (1).jpg",
-          "alt": "Closing moments",
-          "caption": "Event closing moments"
-        },
-        {
-          "id": "event_3_12",
-          "src": "/IMG_1683.jpg",
-          "alt": "Farewell",
-          "caption": "Guests departing"
+          "id": "ingage_11",
+          "src": "/INGAGE/1B1A9475.jpg",
+          "alt": "INGAGE photo 11",
+          "caption": "INGAGE - Photo 11"
         }
       ],
-      "testimonial": {
-        "text": "Perfect documentation of our charity event. Professional and discreet.",
-        "author": "Charity Foundation",
-        "rating": 5
-      },
-      "tags": ["events", "charity", "gala", "corporate", "networking"]
+      "testimonial": null,
+      "tags": []
     },
     {
       "id": 4,
-      "title": "Summer Fashion Editorial",
-      "category": "fashion",
-      "slug": "fashion/summer-editorial",
-      "thumbnail": "/1B1A8443.jpg",
-      "description": "Summer collection for a local boutique",
-      "location": "Beach Resort",
-      "date": "March 2025",
-      "client": "Summer Boutique",
-      "duration": "Full Day",
-      "services": ["Fashion Photography", "Model Direction", "Location Scouting"],
+      "title": "KartiK & Worship",
+      "category": "weddings",
+      "slug": "wedding/KartiK-Worship",
+      "thumbnail": "/KartiK-Worship/1B1A8434 (1).jpg",
+      "description": "KartiK & Worship photo collection",
+      "location": "",
+      "date": "",
+      "client": "KartiK & Worship",
+      "duration": "",
+      "services": [],
       "photos": [
         {
-          "id": "fashion_4_1",
-          "src": "/1B1A8443.jpg",
-          "alt": "Beach fashion shot",
-          "caption": "Summer beach collection"
+          "id": "kartikworship_1",
+          "src": "/KartiK-Worship/1B1A8434 (1).jpg",
+          "alt": "KartiK & Worship photo 1",
+          "caption": "KartiK & Worship - Photo 1"
         },
         {
-          "id": "fashion_4_2",
-          "src": "/1B1A8450.jpg",
-          "alt": "Resort fashion",
-          "caption": "Resort wear collection"
+          "id": "kartikworship_2",
+          "src": "/KartiK-Worship/1B1A8443.jpg",
+          "alt": "KartiK & Worship photo 2",
+          "caption": "KartiK & Worship - Photo 2"
         },
         {
-          "id": "fashion_4_3",
-          "src": "/1B1A8458.jpg",
-          "alt": "Casual fashion",
-          "caption": "Casual summer wear"
+          "id": "kartikworship_3",
+          "src": "/KartiK-Worship/1B1A8464.jpg",
+          "alt": "KartiK & Worship photo 3",
+          "caption": "KartiK & Worship - Photo 3"
         },
         {
-          "id": "fashion_4_4",
-          "src": "/1B1A8652 (1).jpg",
-          "alt": "Evening fashion",
-          "caption": "Evening summer dresses"
+          "id": "kartikworship_4",
+          "src": "/KartiK-Worship/1B1A8504.jpg",
+          "alt": "KartiK & Worship photo 4",
+          "caption": "KartiK & Worship - Photo 4"
         },
         {
-          "id": "fashion_4_5",
-          "src": "/1B1A8680.jpg",
-          "alt": "Accessories shot",
-          "caption": "Summer accessories"
+          "id": "kartikworship_5",
+          "src": "/KartiK-Worship/1B1A8506.jpg",
+          "alt": "KartiK & Worship photo 5",
+          "caption": "KartiK & Worship - Photo 5"
         },
         {
-          "id": "fashion_4_6",
-          "src": "/1B1A8749.jpg",
-          "alt": "Swimwear",
-          "caption": "Swimwear collection"
+          "id": "kartikworship_6",
+          "src": "/KartiK-Worship/1B1A8652 (1).jpg",
+          "alt": "KartiK & Worship photo 6",
+          "caption": "KartiK & Worship - Photo 6"
         },
         {
-          "id": "fashion_4_7",
-          "src": "/1B1A8752.jpg",
-          "alt": "Lifestyle fashion",
-          "caption": "Lifestyle fashion shots"
+          "id": "kartikworship_7",
+          "src": "/KartiK-Worship/1B1A8655.jpg",
+          "alt": "KartiK & Worship photo 7",
+          "caption": "KartiK & Worship - Photo 7"
         },
         {
-          "id": "fashion_4_8",
-          "src": "/1B1A9381.jpg",
-          "alt": "Close-up fashion",
-          "caption": "Detail shots"
+          "id": "kartikworship_8",
+          "src": "/KartiK-Worship/1B1A8672.jpg",
+          "alt": "KartiK & Worship photo 8",
+          "caption": "KartiK & Worship - Photo 8"
         },
         {
-          "id": "fashion_4_9",
-          "src": "/1B1A9384.jpg",
-          "alt": "Group fashion",
-          "caption": "Group fashion shots"
+          "id": "kartikworship_9",
+          "src": "/KartiK-Worship/1B1A8681.jpg",
+          "alt": "KartiK & Worship photo 9",
+          "caption": "KartiK & Worship - Photo 9"
         },
         {
-          "id": "fashion_4_10",
-          "src": "/1B1A8359.jpg",
-          "alt": "Outdoor fashion",
-          "caption": "Outdoor fashion photography"
+          "id": "kartikworship_10",
+          "src": "/KartiK-Worship/1B1A8692.jpg",
+          "alt": "KartiK & Worship photo 10",
+          "caption": "KartiK & Worship - Photo 10"
         },
         {
-          "id": "fashion_4_11",
-          "src": "/1B1A5725.jpg",
-          "alt": "Studio fashion",
-          "caption": "Studio fashion shots"
+          "id": "kartikworship_11",
+          "src": "/KartiK-Worship/1B1A8696 (3).jpg",
+          "alt": "KartiK & Worship photo 11",
+          "caption": "KartiK & Worship - Photo 11"
         },
         {
-          "id": "fashion_4_12",
-          "src": "/5F3A0546 (1).jpg",
-          "alt": "Final fashion",
-          "caption": "Collection finale"
+          "id": "kartikworship_12",
+          "src": "/KartiK-Worship/1B1A8708.jpg",
+          "alt": "KartiK & Worship photo 12",
+          "caption": "KartiK & Worship - Photo 12"
+        },
+        {
+          "id": "kartikworship_13",
+          "src": "/KartiK-Worship/IMG_1274 (2).jpg",
+          "alt": "KartiK & Worship photo 13",
+          "caption": "KartiK & Worship - Photo 13"
+        },
+        {
+          "id": "kartikworship_14",
+          "src": "/KartiK-Worship/IMG_1279.jpg",
+          "alt": "KartiK & Worship photo 14",
+          "caption": "KartiK & Worship - Photo 14"
+        },
+        {
+          "id": "kartikworship_15",
+          "src": "/KartiK-Worship/IMG_1287.jpg",
+          "alt": "KartiK & Worship photo 15",
+          "caption": "KartiK & Worship - Photo 15"
+        },
+        {
+          "id": "kartikworship_16",
+          "src": "/KartiK-Worship/IMG_1289.jpg",
+          "alt": "KartiK & Worship photo 16",
+          "caption": "KartiK & Worship - Photo 16"
+        },
+        {
+          "id": "kartikworship_17",
+          "src": "/KartiK-Worship/IMG_1294.jpg",
+          "alt": "KartiK & Worship photo 17",
+          "caption": "KartiK & Worship - Photo 17"
+        },
+        {
+          "id": "kartikworship_18",
+          "src": "/KartiK-Worship/IMG_1301.jpg",
+          "alt": "KartiK & Worship photo 18",
+          "caption": "KartiK & Worship - Photo 18"
+        },
+        {
+          "id": "kartikworship_19",
+          "src": "/KartiK-Worship/IMG_1309.jpg",
+          "alt": "KartiK & Worship photo 19",
+          "caption": "KartiK & Worship - Photo 19"
+        },
+        {
+          "id": "kartikworship_20",
+          "src": "/KartiK-Worship/IMG_1327 (1).jpg",
+          "alt": "KartiK & Worship photo 20",
+          "caption": "KartiK & Worship - Photo 20"
+        },
+        {
+          "id": "kartikworship_21",
+          "src": "/KartiK-Worship/IMG_1499.jpg",
+          "alt": "KartiK & Worship photo 21",
+          "caption": "KartiK & Worship - Photo 21"
+        },
+        {
+          "id": "kartikworship_22",
+          "src": "/KartiK-Worship/IMG_1622.jpg",
+          "alt": "KartiK & Worship photo 22",
+          "caption": "KartiK & Worship - Photo 22"
+        },
+        {
+          "id": "kartikworship_23",
+          "src": "/KartiK-Worship/IMG_1647.jpg",
+          "alt": "KartiK & Worship photo 23",
+          "caption": "KartiK & Worship - Photo 23"
+        },
+        {
+          "id": "kartikworship_24",
+          "src": "/KartiK-Worship/IMG_1688.jpg",
+          "alt": "KartiK & Worship photo 24",
+          "caption": "KartiK & Worship - Photo 24"
+        },
+        {
+          "id": "kartikworship_25",
+          "src": "/KartiK-Worship/Picsart_25-05-12_09-28-58-517.jpg",
+          "alt": "KartiK & Worship photo 25",
+          "caption": "KartiK & Worship - Photo 25"
+        },
+        {
+          "id": "kartikworship_26",
+          "src": "/KartiK-Worship/Picsart_25-05-13_17-55-04-668.jpg",
+          "alt": "KartiK & Worship photo 26",
+          "caption": "KartiK & Worship - Photo 26"
+        },
+        {
+          "id": "kartikworship_27",
+          "src": "/KartiK-Worship/Picsart_25-05-13_18-03-48-799.jpg",
+          "alt": "KartiK & Worship photo 27",
+          "caption": "KartiK & Worship - Photo 27"
+        },
+        {
+          "id": "kartikworship_28",
+          "src": "/KartiK-Worship/Picsart_25-05-13_18-23-00-321.jpg",
+          "alt": "KartiK & Worship photo 28",
+          "caption": "KartiK & Worship - Photo 28"
+        },
+        {
+          "id": "kartikworship_29",
+          "src": "/KartiK-Worship/Picsart_25-05-13_18-40-27-014.jpg",
+          "alt": "KartiK & Worship photo 29",
+          "caption": "KartiK & Worship - Photo 29"
+        },
+        {
+          "id": "kartikworship_30",
+          "src": "/KartiK-Worship/Picsart_25-05-13_18-49-15-848.jpg",
+          "alt": "KartiK & Worship photo 30",
+          "caption": "KartiK & Worship - Photo 30"
+        },
+        {
+          "id": "kartikworship_31",
+          "src": "/KartiK-Worship/Picsart_25-05-13_18-52-41-816.jpg",
+          "alt": "KartiK & Worship photo 31",
+          "caption": "KartiK & Worship - Photo 31"
+        },
+        {
+          "id": "kartikworship_32",
+          "src": "/KartiK-Worship/Picsart_25-05-13_19-19-10-535.jpg",
+          "alt": "KartiK & Worship photo 32",
+          "caption": "KartiK & Worship - Photo 32"
+        },
+        {
+          "id": "kartikworship_33",
+          "src": "/KartiK-Worship/Picsart_25-05-13_19-24-10-969.jpg",
+          "alt": "KartiK & Worship photo 33",
+          "caption": "KartiK & Worship - Photo 33"
+        },
+        {
+          "id": "kartikworship_34",
+          "src": "/KartiK-Worship/Picsart_25-05-13_19-26-44-645.jpg",
+          "alt": "KartiK & Worship photo 34",
+          "caption": "KartiK & Worship - Photo 34"
+        },
+        {
+          "id": "kartikworship_35",
+          "src": "/KartiK-Worship/Picsart_25-05-13_19-31-18-995.jpg",
+          "alt": "KartiK & Worship photo 35",
+          "caption": "KartiK & Worship - Photo 35"
+        },
+        {
+          "id": "kartikworship_36",
+          "src": "/KartiK-Worship/Picsart_25-05-14_07-31-56-071.jpg",
+          "alt": "KartiK & Worship photo 36",
+          "caption": "KartiK & Worship - Photo 36"
+        },
+        {
+          "id": "kartikworship_37",
+          "src": "/KartiK-Worship/Picsart_25-05-14_08-09-08-853.jpg",
+          "alt": "KartiK & Worship photo 37",
+          "caption": "KartiK & Worship - Photo 37"
+        },
+        {
+          "id": "kartikworship_38",
+          "src": "/KartiK-Worship/Picsart_25-05-14_12-29-19-015.jpg",
+          "alt": "KartiK & Worship photo 38",
+          "caption": "KartiK & Worship - Photo 38"
+        },
+        {
+          "id": "kartikworship_39",
+          "src": "/KartiK-Worship/Picsart_25-05-14_12-47-23-572.jpg",
+          "alt": "KartiK & Worship photo 39",
+          "caption": "KartiK & Worship - Photo 39"
         }
       ],
-      "testimonial": {
-        "text": "The fashion shots are magazine-worthy! Our sales increased by 40%.",
-        "author": "Summer Boutique",
-        "rating": 5
-      },
-      "tags": ["fashion", "editorial", "summer", "beach", "boutique"]
+      "testimonial": null,
+      "tags": []
     },
     {
       "id": 5,
-      "title": "Corporate Team Photos",
-      "category": "commercial",
-      "slug": "commercial/tech-startup",
-      "thumbnail": "/VMC02805.jpg",
-      "description": "Professional team photography for a tech startup",
-      "location": "Tech Park",
-      "date": "February 2025",
-      "client": "TechStart Inc.",
-      "duration": "Half Day",
-      "services": ["Team Photos", "Individual Headshots", "Office Environment"],
+      "title": "Mayank & Shivani",
+      "category": "weddings",
+      "slug": "wedding/Mayank-Shivani",
+      "thumbnail": "/Mayank-Shivani/MS1.png",
+      "description": "Mayank & Shivani photo collection",
+      "location": "",
+      "date": "",
+      "client": "Mayank & Shivani",
+      "duration": "",
+      "services": [],
       "photos": [
         {
-          "id": "commercial_5_1",
-          "src": "/VMC02805.jpg",
-          "alt": "Team group photo",
-          "caption": "Full team group photo"
+          "id": "mayankshivani_1",
+          "src": "/Mayank-Shivani/MS1.png",
+          "alt": "Mayank & Shivani photo 1",
+          "caption": "Mayank & Shivani - Photo 1"
         },
         {
-          "id": "commercial_5_2",
-          "src": "/VMC02809.jpg",
-          "alt": "Department teams",
-          "caption": "Development team"
+          "id": "mayankshivani_2",
+          "src": "/Mayank-Shivani/MS10.jpg",
+          "alt": "Mayank & Shivani photo 2",
+          "caption": "Mayank & Shivani - Photo 2"
         },
         {
-          "id": "commercial_5_3",
-          "src": "/VMC02827.jpg",
-          "alt": "Leadership team",
-          "caption": "Executive team photo"
+          "id": "mayankshivani_3",
+          "src": "/Mayank-Shivani/MS11.jpg",
+          "alt": "Mayank & Shivani photo 3",
+          "caption": "Mayank & Shivani - Photo 3"
         },
         {
-          "id": "commercial_5_4",
-          "src": "/VMC02863.jpg",
-          "alt": "Office environment",
-          "caption": "Modern office space"
+          "id": "mayankshivani_4",
+          "src": "/Mayank-Shivani/MS12.jpg",
+          "alt": "Mayank & Shivani photo 4",
+          "caption": "Mayank & Shivani - Photo 4"
         },
         {
-          "id": "commercial_5_5",
-          "src": "/VMC02872.jpg",
-          "alt": "Individual headshots",
-          "caption": "Professional headshots"
+          "id": "mayankshivani_5",
+          "src": "/Mayank-Shivani/MS13.jpg",
+          "alt": "Mayank & Shivani photo 5",
+          "caption": "Mayank & Shivani - Photo 5"
         },
         {
-          "id": "commercial_5_6",
-          "src": "/VMC02899.jpg",
-          "alt": "Team collaboration",
-          "caption": "Team collaboration shots"
+          "id": "mayankshivani_6",
+          "src": "/Mayank-Shivani/MS14.jpg",
+          "alt": "Mayank & Shivani photo 6",
+          "caption": "Mayank & Shivani - Photo 6"
         },
         {
-          "id": "commercial_5_7",
-          "src": "/VMC02901.jpg",
-          "alt": "Work environment",
-          "caption": "Work environment photography"
+          "id": "mayankshivani_7",
+          "src": "/Mayank-Shivani/MS15.jpg",
+          "alt": "Mayank & Shivani photo 7",
+          "caption": "Mayank & Shivani - Photo 7"
         },
         {
-          "id": "commercial_5_8",
-          "src": "/VMC02907.jpg",
-          "alt": "Casual team shots",
-          "caption": "Casual team moments"
+          "id": "mayankshivani_8",
+          "src": "/Mayank-Shivani/MS16.jpg",
+          "alt": "Mayank & Shivani photo 8",
+          "caption": "Mayank & Shivani - Photo 8"
         },
         {
-          "id": "commercial_5_9",
-          "src": "/VMC02910.jpg",
-          "alt": "Office culture",
-          "caption": "Office culture shots"
+          "id": "mayankshivani_9",
+          "src": "/Mayank-Shivani/MS17.jpg",
+          "alt": "Mayank & Shivani photo 9",
+          "caption": "Mayank & Shivani - Photo 9"
         },
         {
-          "id": "commercial_5_10",
-          "src": "/VMC02915.jpg",
-          "alt": "Team building",
-          "caption": "Team building activities"
+          "id": "mayankshivani_10",
+          "src": "/Mayank-Shivani/MS18.jpg",
+          "alt": "Mayank & Shivani photo 10",
+          "caption": "Mayank & Shivani - Photo 10"
         },
         {
-          "id": "commercial_5_11",
-          "src": "/VMC02918.jpg",
-          "alt": "Product showcase",
-          "caption": "Product showcase photography"
+          "id": "mayankshivani_11",
+          "src": "/Mayank-Shivani/MS19.jpg",
+          "alt": "Mayank & Shivani photo 11",
+          "caption": "Mayank & Shivani - Photo 11"
         },
         {
-          "id": "commercial_5_12",
-          "src": "/VMC03044.jpg",
-          "alt": "Final team photo",
-          "caption": "Perfect team photo"
+          "id": "mayankshivani_12",
+          "src": "/Mayank-Shivani/MS2.jpg",
+          "alt": "Mayank & Shivani photo 12",
+          "caption": "Mayank & Shivani - Photo 12"
+        },
+        {
+          "id": "mayankshivani_13",
+          "src": "/Mayank-Shivani/MS20.jpg",
+          "alt": "Mayank & Shivani photo 13",
+          "caption": "Mayank & Shivani - Photo 13"
+        },
+        {
+          "id": "mayankshivani_14",
+          "src": "/Mayank-Shivani/MS21.jpg",
+          "alt": "Mayank & Shivani photo 14",
+          "caption": "Mayank & Shivani - Photo 14"
+        },
+        {
+          "id": "mayankshivani_15",
+          "src": "/Mayank-Shivani/MS22.jpg",
+          "alt": "Mayank & Shivani photo 15",
+          "caption": "Mayank & Shivani - Photo 15"
+        },
+        {
+          "id": "mayankshivani_16",
+          "src": "/Mayank-Shivani/MS23.jpg",
+          "alt": "Mayank & Shivani photo 16",
+          "caption": "Mayank & Shivani - Photo 16"
+        },
+        {
+          "id": "mayankshivani_17",
+          "src": "/Mayank-Shivani/MS24.jpg",
+          "alt": "Mayank & Shivani photo 17",
+          "caption": "Mayank & Shivani - Photo 17"
+        },
+        {
+          "id": "mayankshivani_18",
+          "src": "/Mayank-Shivani/MS25.jpg",
+          "alt": "Mayank & Shivani photo 18",
+          "caption": "Mayank & Shivani - Photo 18"
+        },
+        {
+          "id": "mayankshivani_19",
+          "src": "/Mayank-Shivani/MS26.jpg",
+          "alt": "Mayank & Shivani photo 19",
+          "caption": "Mayank & Shivani - Photo 19"
+        },
+        {
+          "id": "mayankshivani_20",
+          "src": "/Mayank-Shivani/MS27.jpg",
+          "alt": "Mayank & Shivani photo 20",
+          "caption": "Mayank & Shivani - Photo 20"
+        },
+        {
+          "id": "mayankshivani_21",
+          "src": "/Mayank-Shivani/MS28.jpg",
+          "alt": "Mayank & Shivani photo 21",
+          "caption": "Mayank & Shivani - Photo 21"
+        },
+        {
+          "id": "mayankshivani_22",
+          "src": "/Mayank-Shivani/MS29.jpg",
+          "alt": "Mayank & Shivani photo 22",
+          "caption": "Mayank & Shivani - Photo 22"
+        },
+        {
+          "id": "mayankshivani_23",
+          "src": "/Mayank-Shivani/MS3.jpg",
+          "alt": "Mayank & Shivani photo 23",
+          "caption": "Mayank & Shivani - Photo 23"
+        },
+        {
+          "id": "mayankshivani_24",
+          "src": "/Mayank-Shivani/MS30.jpg",
+          "alt": "Mayank & Shivani photo 24",
+          "caption": "Mayank & Shivani - Photo 24"
+        },
+        {
+          "id": "mayankshivani_25",
+          "src": "/Mayank-Shivani/MS31.jpg",
+          "alt": "Mayank & Shivani photo 25",
+          "caption": "Mayank & Shivani - Photo 25"
+        },
+        {
+          "id": "mayankshivani_26",
+          "src": "/Mayank-Shivani/MS4.jpg",
+          "alt": "Mayank & Shivani photo 26",
+          "caption": "Mayank & Shivani - Photo 26"
+        },
+        {
+          "id": "mayankshivani_27",
+          "src": "/Mayank-Shivani/MS5.jpg",
+          "alt": "Mayank & Shivani photo 27",
+          "caption": "Mayank & Shivani - Photo 27"
+        },
+        {
+          "id": "mayankshivani_28",
+          "src": "/Mayank-Shivani/MS6.jpg",
+          "alt": "Mayank & Shivani photo 28",
+          "caption": "Mayank & Shivani - Photo 28"
+        },
+        {
+          "id": "mayankshivani_29",
+          "src": "/Mayank-Shivani/MS7.jpg",
+          "alt": "Mayank & Shivani photo 29",
+          "caption": "Mayank & Shivani - Photo 29"
+        },
+        {
+          "id": "mayankshivani_30",
+          "src": "/Mayank-Shivani/MS8.png",
+          "alt": "Mayank & Shivani photo 30",
+          "caption": "Mayank & Shivani - Photo 30"
+        },
+        {
+          "id": "mayankshivani_31",
+          "src": "/Mayank-Shivani/MS9.jpg",
+          "alt": "Mayank & Shivani photo 31",
+          "caption": "Mayank & Shivani - Photo 31"
         }
       ],
-      "testimonial": {
-        "text": "Professional team photos that perfectly represent our company culture.",
-        "author": "TechStart Inc.",
-        "rating": 5
-      },
-      "tags": ["commercial", "corporate", "team", "tech", "startup"]
+      "testimonial": null,
+      "tags": []
     },
     {
       "id": 6,
-      "title": "Rohan & Priya's Engagement",
+      "title": "Mehandi-Sarika",
       "category": "weddings",
-      "slug": "wedding/rohan-priya",
-      "thumbnail": "/VMC03054.jpg",
-      "description": "Pre-wedding photoshoot at a scenic beach",
-      "location": "Goa Beach",
-      "date": "January 2025",
-      "client": "Rohan & Priya",
-      "duration": "Half Day",
-      "services": ["Engagement Shoot", "Location Photography", "Couple Portraits"],
+      "slug": "wedding/mehandi-sarika",
+      "thumbnail": "/Mehandi-Sarika/1B1A9375.jpg",
+      "description": "Mehandi-Sarika photo collection",
+      "location": "",
+      "date": "",
+      "client": "Mehandi-Sarika",
+      "duration": "",
+      "services": [],
       "photos": [
         {
-          "id": "engagement_6_1",
-          "src": "/VMC03054.jpg",
-          "alt": "Beach engagement",
-          "caption": "Romantic beach engagement"
+          "id": "mehandisarika_1",
+          "src": "/Mehandi-Sarika/1B1A9375.jpg",
+          "alt": "Mehandi-Sarika photo 1",
+          "caption": "Mehandi-Sarika - Photo 1"
         },
         {
-          "id": "engagement_6_2",
-          "src": "/VMC03055.jpg",
-          "alt": "Couple portrait",
-          "caption": "Beautiful couple portrait"
+          "id": "mehandisarika_2",
+          "src": "/Mehandi-Sarika/1B1A9378.jpg",
+          "alt": "Mehandi-Sarika photo 2",
+          "caption": "Mehandi-Sarika - Photo 2"
         },
         {
-          "id": "engagement_6_3",
-          "src": "/VMC03069.jpg",
-          "alt": "Sunset moment",
-          "caption": "Perfect sunset moment"
+          "id": "mehandisarika_3",
+          "src": "/Mehandi-Sarika/1B1A9381.jpg",
+          "alt": "Mehandi-Sarika photo 3",
+          "caption": "Mehandi-Sarika - Photo 3"
         },
         {
-          "id": "engagement_6_4",
-          "src": "/character.jpg",
-          "alt": "Fun moments",
-          "caption": "Fun and playful moments"
+          "id": "mehandisarika_4",
+          "src": "/Mehandi-Sarika/1B1A9383.jpg",
+          "alt": "Mehandi-Sarika photo 4",
+          "caption": "Mehandi-Sarika - Photo 4"
         },
         {
-          "id": "engagement_6_5",
-          "src": "/home.jpg",
-          "alt": "Intimate moments",
-          "caption": "Intimate couple moments"
+          "id": "mehandisarika_5",
+          "src": "/Mehandi-Sarika/1B1A9384.jpg",
+          "alt": "Mehandi-Sarika photo 5",
+          "caption": "Mehandi-Sarika - Photo 5"
         },
         {
-          "id": "engagement_6_6",
-          "src": "/IMG_1896.jpg",
-          "alt": "Ring close-up",
-          "caption": "Engagement ring close-up"
+          "id": "mehandisarika_6",
+          "src": "/Mehandi-Sarika/1B1A9386.jpg",
+          "alt": "Mehandi-Sarika photo 6",
+          "caption": "Mehandi-Sarika - Photo 6"
         },
         {
-          "id": "engagement_6_7",
-          "src": "/memo.jpg",
-          "alt": "Candid moments",
-          "caption": "Natural candid moments"
+          "id": "mehandisarika_7",
+          "src": "/Mehandi-Sarika/1B1A9389.jpg",
+          "alt": "Mehandi-Sarika photo 7",
+          "caption": "Mehandi-Sarika - Photo 7"
         },
         {
-          "id": "engagement_6_8",
-          "src": "/White Simple Minimalist Happy Wedding Photo Collage_20250404_234036_0000.jpg",
-          "alt": "Photo collage",
-          "caption": "Engagement photo collage"
+          "id": "mehandisarika_8",
+          "src": "/Mehandi-Sarika/1B1A9397 (1).jpg",
+          "alt": "Mehandi-Sarika photo 8",
+          "caption": "Mehandi-Sarika - Photo 8"
         },
         {
-          "id": "engagement_6_9",
-          "src": "/011A8486.jpg",
-          "alt": "Beach walk",
-          "caption": "Romantic beach walk"
-        },
-        {
-          "id": "engagement_6_10",
-          "src": "/0O0A0978.jpg",
-          "alt": "Water shots",
-          "caption": "Water and beach shots"
-        },
-        {
-          "id": "engagement_6_11",
-          "src": "/1747143850683.jpg",
-          "alt": "Final moments",
-          "caption": "Perfect ending to the shoot"
-        },
-        {
-          "id": "engagement_6_12",
-          "src": "/1B1A5671.jpg",
-          "alt": "Departure",
-          "caption": "Beautiful departure shot"
+          "id": "mehandisarika_9",
+          "src": "/Mehandi-Sarika/Brown and Pink Classic Neutral Wedding Animated Photo Collage_20250329_160148_0000.png",
+          "alt": "Mehandi-Sarika photo 9",
+          "caption": "Mehandi-Sarika - Photo 9"
         }
       ],
-      "testimonial": {
-        "text": "Our engagement photos are absolutely magical! We couldn't be happier.",
-        "author": "Rohan & Priya",
-        "rating": 5
-      },
-      "tags": ["engagement", "beach", "romantic", "pre-wedding", "couple"]
+      "testimonial": null,
+      "tags": []
+    },
+    {
+      "id": 7,
+      "title": "Mennakshi & JayRaj",
+      "category": "weddings",
+      "slug": "wedding/Mennakshi-JayRaj",
+      "thumbnail": "/Mennakshi-JayRaj/MJ1.jpg",
+      "description": "Mennakshi & JayRaj photo collection",
+      "location": "",
+      "date": "",
+      "client": "Mennakshi & JayRaj",
+      "duration": "",
+      "services": [],
+      "photos": [
+        {
+          "id": "mennakshijayraj_1",
+          "src": "/Mennakshi-JayRaj/MJ1.jpg",
+          "alt": "Mennakshi & JayRaj photo 1",
+          "caption": "Mennakshi & JayRaj - Photo 1"
+        },
+        {
+          "id": "mennakshijayraj_2",
+          "src": "/Mennakshi-JayRaj/MJ10.jpg",
+          "alt": "Mennakshi & JayRaj photo 2",
+          "caption": "Mennakshi & JayRaj - Photo 2"
+        },
+        {
+          "id": "mennakshijayraj_3",
+          "src": "/Mennakshi-JayRaj/MJ11.jpg",
+          "alt": "Mennakshi & JayRaj photo 3",
+          "caption": "Mennakshi & JayRaj - Photo 3"
+        },
+        {
+          "id": "mennakshijayraj_4",
+          "src": "/Mennakshi-JayRaj/MJ12.jpg",
+          "alt": "Mennakshi & JayRaj photo 4",
+          "caption": "Mennakshi & JayRaj - Photo 4"
+        },
+        {
+          "id": "mennakshijayraj_5",
+          "src": "/Mennakshi-JayRaj/MJ13.jpg",
+          "alt": "Mennakshi & JayRaj photo 5",
+          "caption": "Mennakshi & JayRaj - Photo 5"
+        },
+        {
+          "id": "mennakshijayraj_6",
+          "src": "/Mennakshi-JayRaj/MJ14.jpg",
+          "alt": "Mennakshi & JayRaj photo 6",
+          "caption": "Mennakshi & JayRaj - Photo 6"
+        },
+        {
+          "id": "mennakshijayraj_7",
+          "src": "/Mennakshi-JayRaj/MJ15.jpg",
+          "alt": "Mennakshi & JayRaj photo 7",
+          "caption": "Mennakshi & JayRaj - Photo 7"
+        },
+        {
+          "id": "mennakshijayraj_8",
+          "src": "/Mennakshi-JayRaj/MJ2.jpg",
+          "alt": "Mennakshi & JayRaj photo 8",
+          "caption": "Mennakshi & JayRaj - Photo 8"
+        },
+        {
+          "id": "mennakshijayraj_9",
+          "src": "/Mennakshi-JayRaj/MJ3.jpg",
+          "alt": "Mennakshi & JayRaj photo 9",
+          "caption": "Mennakshi & JayRaj - Photo 9"
+        },
+        {
+          "id": "mennakshijayraj_10",
+          "src": "/Mennakshi-JayRaj/MJ4.jpg",
+          "alt": "Mennakshi & JayRaj photo 10",
+          "caption": "Mennakshi & JayRaj - Photo 10"
+        },
+        {
+          "id": "mennakshijayraj_11",
+          "src": "/Mennakshi-JayRaj/MJ5.jpg",
+          "alt": "Mennakshi & JayRaj photo 11",
+          "caption": "Mennakshi & JayRaj - Photo 11"
+        },
+        {
+          "id": "mennakshijayraj_12",
+          "src": "/Mennakshi-JayRaj/MJ6.jpg",
+          "alt": "Mennakshi & JayRaj photo 12",
+          "caption": "Mennakshi & JayRaj - Photo 12"
+        },
+        {
+          "id": "mennakshijayraj_13",
+          "src": "/Mennakshi-JayRaj/MJ7.jpg",
+          "alt": "Mennakshi & JayRaj photo 13",
+          "caption": "Mennakshi & JayRaj - Photo 13"
+        },
+        {
+          "id": "mennakshijayraj_14",
+          "src": "/Mennakshi-JayRaj/MJ8.jpg",
+          "alt": "Mennakshi & JayRaj photo 14",
+          "caption": "Mennakshi & JayRaj - Photo 14"
+        },
+        {
+          "id": "mennakshijayraj_15",
+          "src": "/Mennakshi-JayRaj/MJ9.jpg",
+          "alt": "Mennakshi & JayRaj photo 15",
+          "caption": "Mennakshi & JayRaj - Photo 15"
+        }
+      ],
+      "testimonial": null,
+      "tags": []
+    },
+    {
+      "id": 8,
+      "title": "Mradul & Shailza",
+      "category": "weddings",
+      "slug": "wedding/Mradul-Shailza",
+      "thumbnail": "/Mradul-Shailza/18_20250112_120929_0017.png",
+      "description": "Mradul & Shailza photo collection",
+      "location": "",
+      "date": "",
+      "client": "Mradul & Shailza",
+      "duration": "",
+      "services": [],
+      "photos": [
+        {
+          "id": "mradulshailza_1",
+          "src": "/Mradul-Shailza/18_20250112_120929_0017.png",
+          "alt": "Mradul & Shailza photo 1",
+          "caption": "Mradul & Shailza - Photo 1"
+        },
+        {
+          "id": "mradulshailza_2",
+          "src": "/Mradul-Shailza/Beige Aesthetic Quote Scrapbook Photo Collage Instagram Post_20250112_201500_0000.jpg",
+          "alt": "Mradul & Shailza photo 2",
+          "caption": "Mradul & Shailza - Photo 2"
+        },
+        {
+          "id": "mradulshailza_3",
+          "src": "/Mradul-Shailza/Grey Green Floral Watercolor Wedding Photo Collage_20250114_082146_0000.png",
+          "alt": "Mradul & Shailza photo 3",
+          "caption": "Mradul & Shailza - Photo 3"
+        },
+        {
+          "id": "mradulshailza_4",
+          "src": "/Mradul-Shailza/The Bride_20250115_164224_0000.png",
+          "alt": "Mradul & Shailza photo 4",
+          "caption": "Mradul & Shailza - Photo 4"
+        },
+        {
+          "id": "mradulshailza_5",
+          "src": "/Mradul-Shailza/The Bride_20250115_183523_0000.jpg",
+          "alt": "Mradul & Shailza photo 5",
+          "caption": "Mradul & Shailza - Photo 5"
+        },
+        {
+          "id": "mradulshailza_6",
+          "src": "/Mradul-Shailza/VMC02663 (16).jpg",
+          "alt": "Mradul & Shailza photo 6",
+          "caption": "Mradul & Shailza - Photo 6"
+        },
+        {
+          "id": "mradulshailza_7",
+          "src": "/Mradul-Shailza/VMC02663 (23).jpg",
+          "alt": "Mradul & Shailza photo 7",
+          "caption": "Mradul & Shailza - Photo 7"
+        },
+        {
+          "id": "mradulshailza_8",
+          "src": "/Mradul-Shailza/VMC02663 (29).jpg",
+          "alt": "Mradul & Shailza photo 8",
+          "caption": "Mradul & Shailza - Photo 8"
+        },
+        {
+          "id": "mradulshailza_9",
+          "src": "/Mradul-Shailza/VMC02761.jpg",
+          "alt": "Mradul & Shailza photo 9",
+          "caption": "Mradul & Shailza - Photo 9"
+        },
+        {
+          "id": "mradulshailza_10",
+          "src": "/Mradul-Shailza/VMC02805.jpg",
+          "alt": "Mradul & Shailza photo 10",
+          "caption": "Mradul & Shailza - Photo 10"
+        },
+        {
+          "id": "mradulshailza_11",
+          "src": "/Mradul-Shailza/VMC02809.jpg",
+          "alt": "Mradul & Shailza photo 11",
+          "caption": "Mradul & Shailza - Photo 11"
+        },
+        {
+          "id": "mradulshailza_12",
+          "src": "/Mradul-Shailza/VMC02856.jpg",
+          "alt": "Mradul & Shailza photo 12",
+          "caption": "Mradul & Shailza - Photo 12"
+        },
+        {
+          "id": "mradulshailza_13",
+          "src": "/Mradul-Shailza/VMC02863.jpg",
+          "alt": "Mradul & Shailza photo 13",
+          "caption": "Mradul & Shailza - Photo 13"
+        },
+        {
+          "id": "mradulshailza_14",
+          "src": "/Mradul-Shailza/VMC02875.jpg",
+          "alt": "Mradul & Shailza photo 14",
+          "caption": "Mradul & Shailza - Photo 14"
+        },
+        {
+          "id": "mradulshailza_15",
+          "src": "/Mradul-Shailza/VMC02878.jpg",
+          "alt": "Mradul & Shailza photo 15",
+          "caption": "Mradul & Shailza - Photo 15"
+        },
+        {
+          "id": "mradulshailza_16",
+          "src": "/Mradul-Shailza/VMC02893.jpg",
+          "alt": "Mradul & Shailza photo 16",
+          "caption": "Mradul & Shailza - Photo 16"
+        },
+        {
+          "id": "mradulshailza_17",
+          "src": "/Mradul-Shailza/VMC02901.jpg",
+          "alt": "Mradul & Shailza photo 17",
+          "caption": "Mradul & Shailza - Photo 17"
+        },
+        {
+          "id": "mradulshailza_18",
+          "src": "/Mradul-Shailza/VMC02907.jpg",
+          "alt": "Mradul & Shailza photo 18",
+          "caption": "Mradul & Shailza - Photo 18"
+        },
+        {
+          "id": "mradulshailza_19",
+          "src": "/Mradul-Shailza/VMC02910.jpg",
+          "alt": "Mradul & Shailza photo 19",
+          "caption": "Mradul & Shailza - Photo 19"
+        },
+        {
+          "id": "mradulshailza_20",
+          "src": "/Mradul-Shailza/VMC02918.jpg",
+          "alt": "Mradul & Shailza photo 20",
+          "caption": "Mradul & Shailza - Photo 20"
+        },
+        {
+          "id": "mradulshailza_21",
+          "src": "/Mradul-Shailza/VMC02932.jpg",
+          "alt": "Mradul & Shailza photo 21",
+          "caption": "Mradul & Shailza - Photo 21"
+        },
+        {
+          "id": "mradulshailza_22",
+          "src": "/Mradul-Shailza/VMC02935.jpg",
+          "alt": "Mradul & Shailza photo 22",
+          "caption": "Mradul & Shailza - Photo 22"
+        },
+        {
+          "id": "mradulshailza_23",
+          "src": "/Mradul-Shailza/VMC02940.jpg",
+          "alt": "Mradul & Shailza photo 23",
+          "caption": "Mradul & Shailza - Photo 23"
+        },
+        {
+          "id": "mradulshailza_24",
+          "src": "/Mradul-Shailza/VMC03044.jpg",
+          "alt": "Mradul & Shailza photo 24",
+          "caption": "Mradul & Shailza - Photo 24"
+        },
+        {
+          "id": "mradulshailza_25",
+          "src": "/Mradul-Shailza/VMC03070.jpg",
+          "alt": "Mradul & Shailza photo 25",
+          "caption": "Mradul & Shailza - Photo 25"
+        },
+        {
+          "id": "mradulshailza_26",
+          "src": "/Mradul-Shailza/VMC03076.jpg",
+          "alt": "Mradul & Shailza photo 26",
+          "caption": "Mradul & Shailza - Photo 26"
+        },
+        {
+          "id": "mradulshailza_27",
+          "src": "/Mradul-Shailza/VMC03084.jpg",
+          "alt": "Mradul & Shailza photo 27",
+          "caption": "Mradul & Shailza - Photo 27"
+        },
+        {
+          "id": "mradulshailza_28",
+          "src": "/Mradul-Shailza/VMC03093.jpg",
+          "alt": "Mradul & Shailza photo 28",
+          "caption": "Mradul & Shailza - Photo 28"
+        },
+        {
+          "id": "mradulshailza_29",
+          "src": "/Mradul-Shailza/VMC03101.jpg",
+          "alt": "Mradul & Shailza photo 29",
+          "caption": "Mradul & Shailza - Photo 29"
+        },
+        {
+          "id": "mradulshailza_30",
+          "src": "/Mradul-Shailza/VMC03135.jpg",
+          "alt": "Mradul & Shailza photo 30",
+          "caption": "Mradul & Shailza - Photo 30"
+        },
+        {
+          "id": "mradulshailza_31",
+          "src": "/Mradul-Shailza/VMC03144.jpg",
+          "alt": "Mradul & Shailza photo 31",
+          "caption": "Mradul & Shailza - Photo 31"
+        },
+        {
+          "id": "mradulshailza_32",
+          "src": "/Mradul-Shailza/VMC03152.jpg",
+          "alt": "Mradul & Shailza photo 32",
+          "caption": "Mradul & Shailza - Photo 32"
+        },
+        {
+          "id": "mradulshailza_33",
+          "src": "/Mradul-Shailza/VMC03158.jpg",
+          "alt": "Mradul & Shailza photo 33",
+          "caption": "Mradul & Shailza - Photo 33"
+        },
+        {
+          "id": "mradulshailza_34",
+          "src": "/Mradul-Shailza/VMC03186.jpg",
+          "alt": "Mradul & Shailza photo 34",
+          "caption": "Mradul & Shailza - Photo 34"
+        },
+        {
+          "id": "mradulshailza_35",
+          "src": "/Mradul-Shailza/VMC03216.jpg",
+          "alt": "Mradul & Shailza photo 35",
+          "caption": "Mradul & Shailza - Photo 35"
+        },
+        {
+          "id": "mradulshailza_36",
+          "src": "/Mradul-Shailza/VMC03225.jpg",
+          "alt": "Mradul & Shailza photo 36",
+          "caption": "Mradul & Shailza - Photo 36"
+        },
+        {
+          "id": "mradulshailza_37",
+          "src": "/Mradul-Shailza/VMC03273.jpg",
+          "alt": "Mradul & Shailza photo 37",
+          "caption": "Mradul & Shailza - Photo 37"
+        },
+        {
+          "id": "mradulshailza_38",
+          "src": "/Mradul-Shailza/VMC03280.jpg",
+          "alt": "Mradul & Shailza photo 38",
+          "caption": "Mradul & Shailza - Photo 38"
+        },
+        {
+          "id": "mradulshailza_39",
+          "src": "/Mradul-Shailza/VMC03309.jpg",
+          "alt": "Mradul & Shailza photo 39",
+          "caption": "Mradul & Shailza - Photo 39"
+        },
+        {
+          "id": "mradulshailza_40",
+          "src": "/Mradul-Shailza/VMC03314.jpg",
+          "alt": "Mradul & Shailza photo 40",
+          "caption": "Mradul & Shailza - Photo 40"
+        },
+        {
+          "id": "mradulshailza_41",
+          "src": "/Mradul-Shailza/VMC03322.jpg",
+          "alt": "Mradul & Shailza photo 41",
+          "caption": "Mradul & Shailza - Photo 41"
+        },
+        {
+          "id": "mradulshailza_42",
+          "src": "/Mradul-Shailza/VMC03332.jpg",
+          "alt": "Mradul & Shailza photo 42",
+          "caption": "Mradul & Shailza - Photo 42"
+        },
+        {
+          "id": "mradulshailza_43",
+          "src": "/Mradul-Shailza/VMC03335.jpg",
+          "alt": "Mradul & Shailza photo 43",
+          "caption": "Mradul & Shailza - Photo 43"
+        },
+        {
+          "id": "mradulshailza_44",
+          "src": "/Mradul-Shailza/VMC03344.jpg",
+          "alt": "Mradul & Shailza photo 44",
+          "caption": "Mradul & Shailza - Photo 44"
+        },
+        {
+          "id": "mradulshailza_45",
+          "src": "/Mradul-Shailza/VMC03345.jpg",
+          "alt": "Mradul & Shailza photo 45",
+          "caption": "Mradul & Shailza - Photo 45"
+        },
+        {
+          "id": "mradulshailza_46",
+          "src": "/Mradul-Shailza/VMC03351 (1).jpg",
+          "alt": "Mradul & Shailza photo 46",
+          "caption": "Mradul & Shailza - Photo 46"
+        },
+        {
+          "id": "mradulshailza_47",
+          "src": "/Mradul-Shailza/VMC03364.jpg",
+          "alt": "Mradul & Shailza photo 47",
+          "caption": "Mradul & Shailza - Photo 47"
+        },
+        {
+          "id": "mradulshailza_48",
+          "src": "/Mradul-Shailza/VMC03368.jpg",
+          "alt": "Mradul & Shailza photo 48",
+          "caption": "Mradul & Shailza - Photo 48"
+        },
+        {
+          "id": "mradulshailza_49",
+          "src": "/Mradul-Shailza/VMC03372.jpg",
+          "alt": "Mradul & Shailza photo 49",
+          "caption": "Mradul & Shailza - Photo 49"
+        },
+        {
+          "id": "mradulshailza_50",
+          "src": "/Mradul-Shailza/VMC03377.jpg",
+          "alt": "Mradul & Shailza photo 50",
+          "caption": "Mradul & Shailza - Photo 50"
+        },
+        {
+          "id": "mradulshailza_51",
+          "src": "/Mradul-Shailza/VMC03382.jpg",
+          "alt": "Mradul & Shailza photo 51",
+          "caption": "Mradul & Shailza - Photo 51"
+        },
+        {
+          "id": "mradulshailza_52",
+          "src": "/Mradul-Shailza/VMC03391.jpg",
+          "alt": "Mradul & Shailza photo 52",
+          "caption": "Mradul & Shailza - Photo 52"
+        }
+      ],
+      "testimonial": null,
+      "tags": []
     }
   ],
   "metadata": {
-    "totalItems": 6,
-    "totalPhotos": 72,
-    "lastUpdated": "2025-01-15",
-    "version": "1.0.0"
+    "totalItems": 8,
+    "totalPhotos": 214,
+    "lastUpdated": "2025-07-27",
+    "version": "auto-generated"
   }
 } 

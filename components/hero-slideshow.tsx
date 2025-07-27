@@ -6,9 +6,10 @@ import { useState, useEffect } from "react";
 
 // Array of hero images for the carousel
 const heroImages = [
-  "/home.jpg",
-  "/character.jpg",
-  "/memo.jpg",
+  "/Ashish-Samiksha/AS20.jpg",
+  "/Aviral-Laxmi/011A8485.jpg",
+  "/KartiK-Worship/1B1A8692.jpg",
+  "/INGAGE/1B1A9114.jpg"
 ];
 
 export default function HeroSlideshow() {

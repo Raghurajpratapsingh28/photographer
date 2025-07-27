@@ -53,9 +53,9 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               "name": "Surya Photography",
-              "image": "https://yourdomain.com/og-image.jpg",
-              "@id": "https://yourdomain.com/",
-              "url": "https://yourdomain.com/",
+              "image": "https://surya.raghuraj.xyz/og-image.jpg",
+              "@id": "https://surya.raghuraj.xyz/",
+              "url": "https://surya.raghuraj.xyz/",
               "telephone": "+91-XXXXXXXXXX",
               "address": {
                 "@type": "PostalAddress",
