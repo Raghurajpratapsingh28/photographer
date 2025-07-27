@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import ImageModal from '@/components/ImageModal';
-import galleryData from '@/data/gallery.json';
 
 const randomColumns = () => {
   const columnSize = [
@@ -19,11 +18,26 @@ const GalleryClient = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   // Use static images from gallery.json
-  const [images] = useState<{ url: string }[]>(galleryData.images);
-  const [loading] = useState(false);
+  const [images, setImages] = useState<{ url: string }[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    // No need to fetch images from API
+    const fetchGallery = async () => {
+      setLoading(true);
+      setError(null);
+      try {
+        const res = await fetch('/api/gallery');
+        if (!res.ok) throw new Error('Failed to fetch gallery');
+        const data = await res.json();
+        setImages(data.images || []);
+      } catch (err: any) {
+        setError(err.message || 'Unknown error');
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchGallery();
   }, []);
 
   const handleImageClick = (index: number) => {
@@ -44,6 +58,16 @@ const GalleryClient = () => {
       <section className="py-24 overflow-hidden sm:py-24 relative w-full justify-center flex items-center bg-black">
         <div className="px-6 sm:px-24 w-full h-full">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-white mx-auto"></div>
+        </div>
+      </section>
+    );
+  }
+
+  if (error) {
+    return (
+      <section className="py-24 overflow-hidden sm:py-24 relative w-full justify-center flex items-center bg-black">
+        <div className="px-6 sm:px-24 w-full h-full">
+          <div className="text-white text-center">Failed to load gallery: {error}</div>
         </div>
       </section>
     );
