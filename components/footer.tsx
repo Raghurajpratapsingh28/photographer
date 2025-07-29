@@ -37,7 +37,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center space-x-2 mb-4">
               <Camera className="h-8 w-8 text-primary" />
               <span className="font-playfair font-bold text-xl">
-                Luxe<span className="text-gold">Photography</span>
+                Surya <span className="text-gold">Photography</span>
               </span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs">
@@ -105,7 +105,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-muted-foreground" />
-                <span className="text-muted-foreground text-sm">info@luxephotography.com</span>
+                <span className="text-muted-foreground text-sm">info@Surya photography.com</span>
               </li>
             </ul>
           </motion.div>
