@@ -1,3 +1,82 @@
+# Robots.txt for Surya Photography - Professional Wedding Photographer in Kannauj, UP
+
+# Allow all search engines to crawl the site
 User-agent: *
 Allow: /
-Sitemap: https://surya.raghuraj.xyz/sitemap.xml 
+
+# Optimize crawling for important pages first
+Allow: /portfolio
+Allow: /services
+Allow: /gallery
+Allow: /contact
+Allow: /about
+Allow: /blog
+
+# Block access to admin and sensitive areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /_next/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /scripts/
+Disallow: /components/
+Disallow: /lib/
+Disallow: /hooks/
+
+# Block access to development files
+Disallow: /*.json$
+Disallow: /package.json
+Disallow: /tsconfig.json
+Disallow: /.env*
+Disallow: /*.config.js
+Disallow: /*.config.ts
+
+# Allow access to important resources
+Allow: /public/
+Allow: /*.jpg
+Allow: /*.jpeg
+Allow: /*.png
+Allow: /*.webp
+Allow: /*.svg
+Allow: /*.css
+Allow: /*.js
+
+# Crawl delay for better server performance
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://surya.raghuraj.xyz/sitemap.xml
+Sitemap: https://surya.raghuraj.xyz/sitemap-images.xml
+
+# Google-specific directives
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+# Bing-specific directives
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+# Block bad bots and scrapers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Allow social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
