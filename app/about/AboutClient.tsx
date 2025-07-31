@@ -107,7 +107,7 @@ export default function AboutClient() {
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <section className="relative h-[70vh] overflow-hidden" ref={containerRef}>
-        {/* Removed hero image */}
+       <Image src="/Mradul-Shailza/VMC03084.jpg" alt="Hero" fill className="object-cover" />
         <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
         <div className="relative h-full flex items-center justify-center text-center">
           <motion.div

@@ -56,7 +56,7 @@ export default function PortfolioClient() {
           className="absolute inset-0 w-full h-full"
         >
           <Image
-            src="https://images.pexels.com/photos/1813922/pexels-photo-1813922.jpeg"
+            src="/Mradul-Shailza/VMC03186.jpg"
             alt="Portfolio hero"
             fill
             className="object-cover"
