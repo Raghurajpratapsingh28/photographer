@@ -97,11 +97,14 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-muted-foreground mt-0.5" />
-                <span className="text-muted-foreground text-sm">123 Photography Studio, Luxury Lane, New York, NY 10001</span>
+                <span className="text-muted-foreground text-sm">Surya Photography Studio
+Bank of India Road
+Chhibramau 209721 Kannauj
+Uttar Pradesh, India</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-muted-foreground" />
-                <span className="text-muted-foreground text-sm">+1 (555) 123-4567</span>
+                <span onClick={() => window.location.href = "tel:+919151263650"} className="text-muted-foreground cursor-pointer text-sm">+91 9151263650</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-muted-foreground" />
