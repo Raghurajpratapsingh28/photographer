@@ -16,30 +16,30 @@ type Testimonial = {
 const testimonials: Testimonial[] = [
   {
     id: 1,
-    name: "Ankit & Mira",
+    name: "Mayank and Shivani",
     role: "Wedding Clients",
     quote: "Our wedding photos exceeded all expectations. Every emotion, every moment was captured with such artistry. We couldn't be happier with the results!",
     avatar: "https://images.pexels.com/photos/4974402/pexels-photo-4974402.jpeg"
   },
   {
     id: 2,
-    name: "Priya Shah",
-    role: "Portrait Client",
-    quote: "The portrait session was incredible. The photographer made me feel comfortable and the photos truly capture my personality. Highly recommended!",
+    name: "Aviral and Lakshmi",
+    role: "Wedding Clients",
+    quote: "The wedding photography was absolutely stunning! Every precious moment from our special day was captured beautifully. The photographer's eye for detail is incredible.",
     avatar: "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg"
   },
   {
     id: 3,
-    name: "Raj Mehta",
-    role: "Corporate Client",
-    quote: "The team photos for our company are perfect. Professional, creative, and delivered on time. We'll definitely be booking again for future events.",
+    name: "Ashish and Samiksha",
+    role: "Wedding Clients",
+    quote: "Our wedding photos are beyond perfect! The photographer captured the essence of our celebration with such creativity and elegance. We're forever grateful!",
     avatar: "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg"
   },
   {
     id: 4,
-    name: "Neha & Rohan",
-    role: "Engagement Clients",
-    quote: "Our engagement shoot was magical! The photographer knew exactly how to capture our connection in the most beautiful settings. The photos are treasures.",
+    name: "Sarika",
+    role: "Mehandi Clients",
+    quote: "Our mehandi ceremony was perfectly documented! The photographer captured every beautiful moment and intricate design with such skill. These photos will be cherished for generations.",
     avatar: "https://images.pexels.com/photos/5638651/pexels-photo-5638651.jpeg"
   }
 ];

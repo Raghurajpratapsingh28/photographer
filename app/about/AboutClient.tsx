@@ -16,41 +16,39 @@ const milestones = [
   },
   {
     year: "2018",
-    title: "International Recognition",
+    title: "National Recognition",
     description: "Won Best Wedding Photography at Asian Photography Awards"
   },
   {
     year: "2020",
     title: "Studio Launch",
-    description: "Opened our flagship luxury photography studio"
-  },
-  {
-    year: "2023",
-    title: "Global Expansion",
-    description: "Extended services to destination weddings worldwide"
+    description: "Opened our surya photography studio"
+  },{
+    year: "2025",
+    title: "National Expansion",
+    description: "Extended services to destination weddings nationwide"
   }
 ];
 
 const funFacts = [
   {
     icon: <Camera className="h-8 w-8 text-gold" />,
-    title: "10,000+",
+    title: "1000+",
     description: "Photos Delivered"
   },
   {
     icon: <Award className="h-8 w-8 text-gold" />,
-    title: "15+",
+    title: "1+",
     description: "Industry Awards"
   },
   {
     icon: <Users className="h-8 w-8 text-gold" />,
-    title: "500+",
+    title: "50+",
     description: "Happy Clients"
-  },
-  {
+  },{
     icon: <MapPin className="h-8 w-8 text-gold" />,
-    title: "25+",
-    description: "Countries Visited"
+    title: "5+",
+    description: "Cities Visited"
   }
 ];
 

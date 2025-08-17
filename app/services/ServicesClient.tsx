@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { Camera, Users, Clock, Image as ImageIcon } from "lucide-react";
+import { Camera, Users, Clock, Image as ImageIcon, Heart, Baby, Sparkles, Palette, Star, Gift } from "lucide-react";
 
 const services = [
   {
@@ -60,6 +60,90 @@ const services = [
       "Brand storytelling",
       "Location shoots",
       "Commercial rights"
+    ]
+  },
+  {
+    id: 5,
+    title: "Maternity Photography",
+    description: "Celebrate the beauty of motherhood with our intimate maternity photography sessions. Capture this special time with elegant and artistic portraits.",
+    price: "Starting from $800",
+    icon: <Heart className="h-8 w-8 text-gold" />,
+    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    features: [
+      "2-3 hour session",
+      "Multiple outfit changes",
+      "Professional hair & makeup",
+      "Digital gallery & prints"
+    ]
+  },
+  {
+    id: 6,
+    title: "Mehandi Ceremony",
+    description: "Document the vibrant and colorful mehandi ceremony with our specialized photography services. Capture the intricate designs and joyful celebrations.",
+    price: "Starting from $600",
+    icon: <Palette className="h-8 w-8 text-gold" />,
+    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    features: [
+      "Full ceremony coverage",
+      "Detail shots of mehandi",
+      "Family portraits",
+      "Quick delivery"
+    ]
+  },
+  {
+    id: 7,
+    title: "Engagement Photography",
+    description: "Mark the beginning of your journey together with beautiful engagement photography. Create romantic and memorable images of your love story.",
+    price: "Starting from $700",
+    icon: <Sparkles className="h-8 w-8 text-gold" />,
+    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    features: [
+      "2-3 hour session",
+      "Multiple locations",
+      "Outfit changes",
+      "Digital gallery"
+    ]
+  },
+  {
+    id: 8,
+    title: "Newborn Photography",
+    description: "Capture the precious first moments of your baby's life with our gentle newborn photography sessions. Create timeless memories of this special time.",
+    price: "Starting from $900",
+    icon: <Baby className="h-8 w-8 text-gold" />,
+    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    features: [
+      "3-4 hour session",
+      "Professional props",
+      "Family portraits included",
+      "Digital gallery & prints"
+    ]
+  },
+  {
+    id: 9,
+    title: "Pre-Wedding Shoot",
+    description: "Create stunning pre-wedding memories with our creative photography sessions. Perfect for save-the-dates, wedding websites, and social media.",
+    price: "Starting from $1,200",
+    icon: <Star className="h-8 w-8 text-gold" />,
+    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    features: [
+      "Full day shoot",
+      "Multiple locations",
+      "Outfit styling",
+      "Professional editing"
+    ]
+  },
+  {
+    id: 10,
+    title: "Birthday & Celebrations",
+    description: "Make every birthday and celebration special with our event photography. From intimate family gatherings to grand birthday parties.",
+    price: "Starting from $400",
+    icon: <Gift className="h-8 w-8 text-gold" />,
+    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    features: [
+      "2-3 hour coverage",
+      "Candid moments",
+      "Group portraits",
+      "Quick turnaround"
     ]
   }
 ];
@@ -140,7 +224,7 @@ export default function ServicesClient() {
             </p>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service, index) => (
               <motion.div
                 key={service.id}
