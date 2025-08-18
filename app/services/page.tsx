@@ -20,12 +20,12 @@ export const metadata: Metadata = {
     "affordable photography services UP"
   ],
   alternates: {
-    canonical: "https://surya.raghuraj.xyz/services",
+    canonical: "https://suryaphotography.raghuraj.xyz/services",
   },
   openGraph: {
     title: "Photography Services & Packages | Surya Photography Kannauj",
     description: "📷 Professional photography services in Kannauj, UP. Wedding packages from ₹25,000. Free consultation available!",
-    url: "https://surya.raghuraj.xyz/services",
+    url: "https://suryaphotography.raghuraj.xyz/services",
     type: "website",
     locale: "en_US",
     siteName: "Surya Photography",

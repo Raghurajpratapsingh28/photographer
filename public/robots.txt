@@ -45,8 +45,8 @@ Allow: /*.js
 Crawl-delay: 1
 
 # Sitemaps
-Sitemap: https://surya.raghuraj.xyz/sitemap.xml
-Sitemap: https://surya.raghuraj.xyz/sitemap-images.xml
+Sitemap: https://suryaphotography.raghuraj.xyz/sitemap.xml
+Sitemap: https://suryaphotography.raghuraj.xyz/sitemap-images.xml
 
 # Google-specific directives
 User-agent: Googlebot

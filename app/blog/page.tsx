@@ -4,7 +4,7 @@ export const metadata = {
   openGraph: {
     title: "Blog | Surya Photography",
     description: "Read photography tips, client stories, and updates from Surya Photography's blog.",
-    url: "https://surya.raghuraj.xyz/blog",
+    url: "https://suryaphotography.raghuraj.xyz/blog",
     images: ["/og-image.jpg"]
   }
 };

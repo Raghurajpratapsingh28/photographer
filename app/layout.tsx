@@ -8,7 +8,7 @@ import Footer from '@/components/footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://surya.raghuraj.xyz'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://suryaphotography.raghuraj.xyz'),
   title: {
     default: 'Surya Photography - Professional Wedding & Event Photographer in Kannauj, UP',
     template: '%s | Surya Photography - Professional Wedding & Event Photographer'
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     'commercial photography',
     'photography studio Kannauj'
   ],
-  authors: [{ name: 'Surya Photography', url: 'https://surya.raghuraj.xyz' }],
+  authors: [{ name: 'Surya Photography', url: 'https://suryaphotography.raghuraj.xyz' }],
   creator: 'Surya Photography',
   publisher: 'Surya Photography',
   formatDetection: {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://surya.raghuraj.xyz',
+    url: 'https://suryaphotography.raghuraj.xyz',
     siteName: 'Surya Photography - Professional Wedding & Event Photographer',
     title: 'Surya Photography - Professional Wedding & Event Photographer in Kannauj, UP',
     description: 'Award-winning wedding, portrait, and event photographer in Kannauj, Uttar Pradesh. Capturing precious moments with artistic excellence. Book your photography session today!',
@@ -82,10 +82,10 @@ export const metadata: Metadata = {
     }]
   },
   alternates: {
-    canonical: 'https://surya.raghuraj.xyz',
+    canonical: 'https://suryaphotography.raghuraj.xyz',
     languages: {
-      'en-US': 'https://surya.raghuraj.xyz',
-      'hi-IN': 'https://surya.raghuraj.xyz/hi',
+      'en-US': 'https://suryaphotography.raghuraj.xyz',
+      'hi-IN': 'https://suryaphotography.raghuraj.xyz/hi',
     },
   },
 };
@@ -108,15 +108,15 @@ export default function RootLayout({
               "alternateName": "Surya Photography Studio",
               "description": "Award-winning professional wedding, portrait, and event photographer in Kannauj, Uttar Pradesh. Specializing in capturing precious moments with artistic excellence.",
               "image": [
-                "https://surya.raghuraj.xyz/og-image.jpg",
-                "https://surya.raghuraj.xyz/logo.jpg",
-                "https://surya.raghuraj.xyz/studio.jpg"
+                "https://suryaphotography.raghuraj.xyz/og-image.jpg",
+                "https://suryaphotography.raghuraj.xyz/logo.jpg",
+                "https://suryaphotography.raghuraj.xyz/studio.jpg"
               ],
-              "logo": "https://surya.raghuraj.xyz/logo.jpg",
-              "@id": "https://surya.raghuraj.xyz/#organization",
-              "url": "https://surya.raghuraj.xyz/",
+              "logo": "https://suryaphotography.raghuraj.xyz/logo.jpg",
+              "@id": "https://suryaphotography.raghuraj.xyz/#organization",
+              "url": "https://suryaphotography.raghuraj.xyz/",
               "telephone": "+91-9999999999",
-              "email": "info@surya.raghuraj.xyz",
+              "email": "info@suryaphotography.raghuraj.xyz",
               "foundingDate": "2015",
               "founder": {
                 "@type": "Person",
@@ -234,12 +234,12 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Surya Photography",
-              "url": "https://surya.raghuraj.xyz",
+              "url": "https://suryaphotography.raghuraj.xyz",
               "potentialAction": {
                 "@type": "SearchAction",
                 "target": {
                   "@type": "EntryPoint",
-                  "urlTemplate": "https://surya.raghuraj.xyz/search?q={search_term_string}"
+                  "urlTemplate": "https://suryaphotography.raghuraj.xyz/search?q={search_term_string}"
                 },
                 "query-input": "required name=search_term_string"
               },

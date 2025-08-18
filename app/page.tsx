@@ -24,12 +24,12 @@ export const metadata = {
     "photography studio near me"
   ],
   alternates: {
-    canonical: "https://surya.raghuraj.xyz/",
+    canonical: "https://suryaphotography.raghuraj.xyz/",
   },
   openGraph: {
     title: "Surya Photography - #1 Wedding Photographer in Kannauj, UP | Award-Winning Studio",
     description: "🏆 Award-winning wedding photographer in Kannauj, UP. 500+ happy couples, 4.9★ rating. Book now for stunning photography!",
-    url: "https://surya.raghuraj.xyz/",
+    url: "https://suryaphotography.raghuraj.xyz/",
     type: "website",
     locale: "en_US",
     siteName: "Surya Photography",
