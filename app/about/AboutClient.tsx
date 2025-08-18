@@ -10,7 +10,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const milestones = [
   {
-    year: "2015",
+    year: "1987",
     title: "Started Photography",
     description: "Began the journey into professional photography"
   },
@@ -28,18 +28,18 @@ const milestones = [
     title: "National Expansion",
     description: "Extended services to destination weddings nationwide"
   }
-];
+];  
 
 const funFacts = [
   {
     icon: <Camera className="h-8 w-8 text-gold" />,
     title: "1000+",
-    description: "Photos Delivered"
+    description: "Weddings satisfaction."
   },
   {
     icon: <Award className="h-8 w-8 text-gold" />,
-    title: "1+",
-    description: "Industry Awards"
+    title: "2",
+    description: "Multiple industry awards"
   },
   {
     icon: <Users className="h-8 w-8 text-gold" />,
@@ -47,8 +47,8 @@ const funFacts = [
     description: "Happy Clients"
   },{
     icon: <MapPin className="h-8 w-8 text-gold" />,
-    title: "5+",
-    description: "Cities Visited"
+    title: "All India Visits",
+    description: "India"
   }
 ];
 
@@ -164,7 +164,7 @@ export default function AboutClient() {
               className="relative h-[600px] rounded-lg overflow-hidden shadow-2xl"
             >
               <Image
-                src="https://images.pexels.com/photos/3584923/pexels-photo-3584923.jpeg"
+                src="/profile.jpg"
                 alt="Professional portrait"
                 fill
                 className="object-cover"

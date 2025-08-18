@@ -18,12 +18,12 @@ export const metadata = {
     "photography portfolio India"
   ],
   alternates: {
-    canonical: "https://suryaphotography.raghuraj.xyz/portfolio",
+    canonical: "https://suryaphotography.com/portfolio",
   },
   openGraph: {
     title: "Wedding Photography Portfolio | Stunning Wedding Photos by Surya Photography",
     description: "✨ Award-winning wedding photography portfolio featuring 500+ stunning Indian weddings. See why couples choose us in Kannauj, UP!",
-    url: "https://suryaphotography.raghuraj.xyz/portfolio",
+    url: "https://suryaphotography.com/portfolio",
     type: "website",
     locale: "en_US",
     siteName: "Surya Photography",

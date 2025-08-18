@@ -142,8 +142,8 @@ export default function ContactClient() {
                     <Mail className="w-6 h-6 text-gold mt-1" />
                     <div>
                       <h3 className="font-medium mb-1">Email</h3>
-                      <a href="mailto:info@Surya photography.com" className="text-muted-foreground hover:text-primary transition-colors">
-                        info@Surya photography.com
+                      <a href="mailto:kishanrathour43@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                        kishanrathour43@gmail.com
                       </a>
                     </div>
                   </div>

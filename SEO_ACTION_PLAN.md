@@ -32,7 +32,7 @@
 - Category: "Wedding Photographer", "Event Photographer", "Portrait Photographer"
 - Address: Bank of India Road, Chhibramau, Kannauj, UP 209721
 - Phone: +91-9999999999
-- Website: https://suryaphotography.raghuraj.xyz
+- Website: https://suryaphotography.com
 - Hours: Monday-Saturday 9:00 AM - 6:00 PM, Sunday 10:00 AM - 4:00 PM
 - Add 50+ high-quality photos
 - Enable messaging and booking

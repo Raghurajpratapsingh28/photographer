@@ -68,7 +68,7 @@ const services = [
     description: "Celebrate the beauty of motherhood with our intimate maternity photography sessions. Capture this special time with elegant and artistic portraits.",
     price: "Starting from $800",
     icon: <Heart className="h-8 w-8 text-gold" />,
-    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    image: "/paternity.png",
     features: [
       "2-3 hour session",
       "Multiple outfit changes",
@@ -82,7 +82,7 @@ const services = [
     description: "Document the vibrant and colorful mehandi ceremony with our specialized photography services. Capture the intricate designs and joyful celebrations.",
     price: "Starting from $600",
     icon: <Palette className="h-8 w-8 text-gold" />,
-    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    image: "/Mehandi-sarika/1B1A9378.jpg",
     features: [
       "Full ceremony coverage",
       "Detail shots of mehandi",
@@ -96,7 +96,7 @@ const services = [
     description: "Mark the beginning of your journey together with beautiful engagement photography. Create romantic and memorable images of your love story.",
     price: "Starting from $700",
     icon: <Sparkles className="h-8 w-8 text-gold" />,
-    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    image: "/KartiK-Worship/1B1A8692.jpg",
     features: [
       "2-3 hour session",
       "Multiple locations",
@@ -110,7 +110,7 @@ const services = [
     description: "Capture the precious first moments of your baby's life with our gentle newborn photography sessions. Create timeless memories of this special time.",
     price: "Starting from $900",
     icon: <Baby className="h-8 w-8 text-gold" />,
-    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    image: "/baby.png",
     features: [
       "3-4 hour session",
       "Professional props",
@@ -124,7 +124,7 @@ const services = [
     description: "Create stunning pre-wedding memories with our creative photography sessions. Perfect for save-the-dates, wedding websites, and social media.",
     price: "Starting from $1,200",
     icon: <Star className="h-8 w-8 text-gold" />,
-    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    image: "/prewed.png",
     features: [
       "Full day shoot",
       "Multiple locations",
@@ -138,7 +138,7 @@ const services = [
     description: "Make every birthday and celebration special with our event photography. From intimate family gatherings to grand birthday parties.",
     price: "Starting from $400",
     icon: <Gift className="h-8 w-8 text-gold" />,
-    image: "https://images.pexels.com/photos/3771069/pexels-photo-3771069.jpeg",
+    image: "/bd.png",
     features: [
       "2-3 hour coverage",
       "Candid moments",

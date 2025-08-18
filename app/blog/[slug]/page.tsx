@@ -91,12 +91,12 @@ export default function BlogPostPage() {
                 "name": "Surya Photography",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://suryaphotography.raghuraj.xyz/og-image.jpg"
+                  "url": "https://suryaphotography.com/og-image.jpg"
                 }
               },
               "mainEntityOfPage": {
                 "@type": "WebPage",
-                "@id": "https://suryaphotography.raghuraj.xyz/blog/your-post-slug"
+                "@id": "https://suryaphotography.com/blog/your-post-slug"
               }
             })
           }}

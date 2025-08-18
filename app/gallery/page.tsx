@@ -18,12 +18,12 @@ export const metadata = {
     "professional wedding photos"
   ],
   alternates: {
-    canonical: "https://suryaphotography.raghuraj.xyz/gallery",
+    canonical: "https://suryaphotography.com/gallery",
   },
   openGraph: {
     title: "Photo Gallery | Best Wedding Photos by Surya Photography Kannauj",
     description: "🎨 Browse 1000+ stunning wedding photos! See real Indian weddings, pre-wedding shoots & portraits by award-winning photographer.",
-    url: "https://suryaphotography.raghuraj.xyz/gallery",
+    url: "https://suryaphotography.com/gallery",
     type: "website",
     locale: "en_US",
     siteName: "Surya Photography",

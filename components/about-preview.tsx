@@ -70,7 +70,7 @@ export default function AboutPreview() {
           >
             <div className="relative h-[500px] rounded-lg overflow-hidden border border-white/20 shadow-2xl">
               <Image
-                src="https://images.pexels.com/photos/598917/pexels-photo-598917.jpeg"
+                src="/profile.jpg"
                 alt="Professional photographer portrait"
                 fill
                 className="object-cover"

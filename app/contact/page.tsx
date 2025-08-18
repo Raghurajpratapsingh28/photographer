@@ -18,12 +18,12 @@ export const metadata = {
     "photography services inquiry"
   ],
   alternates: {
-    canonical: "https://suryaphotography.raghuraj.xyz/contact",
+    canonical: "https://suryaphotography.com/contact",
   },
   openGraph: {
     title: "Contact & Book Now | Wedding Photographer Kannauj | Free Consultation",
     description: "📞 Book your wedding photography session with Surya Photography. Free consultation available! Quick response guaranteed.",
-    url: "https://suryaphotography.raghuraj.xyz/contact",
+    url: "https://suryaphotography.com/contact",
     type: "website",
     locale: "en_US",
     siteName: "Surya Photography",

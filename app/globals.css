@@ -144,3 +144,54 @@
     transform: rotate(360deg);
   }
 }
+
+/* Mobile-specific improvements */
+@media (max-width: 480px) {
+  /* Ensure minimum tap target size of 44px */
+  .mobile-tap-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+  
+  /* Better text readability on small screens */
+  .mobile-text-shadow {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Small phone specific styles */
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  /* Better button spacing on mobile */
+  .mobile-button-stack {
+    gap: 8px !important;
+  }
+  
+  /* Optimize for small screens */
+  .mobile-compact {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
+  /* Better line clamping for mobile */
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+}
+
+/* Touch-friendly styles */
+@media (hover: none) and (pointer: coarse) {
+  .hover-touch:hover {
+    transform: none;
+  }
+  
+  .hover-touch:active {
+    transform: scale(0.98);
+    transition: transform 0.1s;
+  }
+}

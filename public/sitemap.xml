@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <!-- Homepage - Highest Priority -->
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/</loc>
+    <loc>https://suryaphotography.com/</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image>
-      <image:loc>https://suryaphotography.raghuraj.xyz/og-image.jpg</image:loc>
+      <image:loc>https://suryaphotography.com/og-image.jpg</image:loc>
       <image:title>Surya Photography - Award-winning Wedding Photographer in Kannauj, UP</image:title>
       <image:caption>Professional wedding and event photography services in Kannauj, Uttar Pradesh</image:caption>
     </image:image>
@@ -15,7 +15,7 @@
   
   <!-- Services Page - High Priority -->
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/services</loc>
+    <loc>https://suryaphotography.com/services</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -23,7 +23,7 @@
   
   <!-- Portfolio Page - High Priority -->
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio</loc>
+    <loc>https://suryaphotography.com/portfolio</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -31,7 +31,7 @@
   
   <!-- Gallery Page - High Priority -->
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/gallery</loc>
+    <loc>https://suryaphotography.com/gallery</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -39,7 +39,7 @@
   
   <!-- Contact Page - High Priority -->
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/contact</loc>
+    <loc>https://suryaphotography.com/contact</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -47,7 +47,7 @@
   
   <!-- About Page -->
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/about</loc>
+    <loc>https://suryaphotography.com/about</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -55,7 +55,7 @@
   
   <!-- Blog Page -->
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/blog</loc>
+    <loc>https://suryaphotography.com/blog</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
@@ -63,7 +63,7 @@
   
   <!-- Book Now Page -->
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/book</loc>
+    <loc>https://suryaphotography.com/book</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -71,28 +71,28 @@
   
   <!-- Portfolio Categories -->
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/weddings</loc>
+    <loc>https://suryaphotography.com/portfolio/weddings</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/pre-wedding</loc>
+    <loc>https://suryaphotography.com/portfolio/pre-wedding</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/portraits</loc>
+    <loc>https://suryaphotography.com/portfolio/portraits</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/events</loc>
+    <loc>https://suryaphotography.com/portfolio/events</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -100,56 +100,56 @@
   
   <!-- Individual Portfolio Collections -->
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/ashish-samiksha</loc>
+    <loc>https://suryaphotography.com/portfolio/ashish-samiksha</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/aviral-laxmi</loc>
+    <loc>https://suryaphotography.com/portfolio/aviral-laxmi</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/mayank-shivani</loc>
+    <loc>https://suryaphotography.com/portfolio/mayank-shivani</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/mradul-shailza</loc>
+    <loc>https://suryaphotography.com/portfolio/mradul-shailza</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/mennakshi-jayraj</loc>
+    <loc>https://suryaphotography.com/portfolio/mennakshi-jayraj</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/kartik-worship</loc>
+    <loc>https://suryaphotography.com/portfolio/kartik-worship</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/mehandi-sarika</loc>
+    <loc>https://suryaphotography.com/portfolio/mehandi-sarika</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://suryaphotography.raghuraj.xyz/portfolio/ingage</loc>
+    <loc>https://suryaphotography.com/portfolio/ingage</loc>
     <lastmod>2025-01-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

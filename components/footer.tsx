@@ -108,7 +108,7 @@ Uttar Pradesh, India</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-muted-foreground" />
-                <span className="text-muted-foreground text-sm">info@Surya photography.com</span>
+                <span className="text-muted-foreground text-sm">kishanrathour43@gmail.com</span>
               </li>
             </ul>
           </motion.div>

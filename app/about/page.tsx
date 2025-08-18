@@ -14,12 +14,12 @@ export const metadata = {
     "photography expert Kannauj"
   ],
   alternates: {
-    canonical: "https://suryaphotography.raghuraj.xyz/about",
+    canonical: "https://suryaphotography.com/about",
   },
   openGraph: {
     title: "About Surya - Professional Wedding Photographer | 10+ Years Experience",
     description: "Meet Surya, award-winning wedding photographer with 10+ years experience in Kannauj, UP. 500+ satisfied clients trust our artistic excellence.",
-    url: "https://suryaphotography.raghuraj.xyz/about",
+    url: "https://suryaphotography.com/about",
     type: "website",
     locale: "en_US",
     siteName: "Surya Photography",

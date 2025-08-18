@@ -4,11 +4,12 @@ import { Inter } from 'next/font/google';
 import { ThemeProvider } from '@/components/theme-provider';
 import Navbar from '@/components/navbar';
 import Footer from '@/components/footer';
+import FloatingContactBar from '@/components/floating-contact-bar';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://suryaphotography.raghuraj.xyz'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || 'https://suryaphotography.com'),
   title: {
     default: 'Surya Photography - Professional Wedding & Event Photographer in Kannauj, UP',
     template: '%s | Surya Photography - Professional Wedding & Event Photographer'
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     'commercial photography',
     'photography studio Kannauj'
   ],
-  authors: [{ name: 'Surya Photography', url: 'https://suryaphotography.raghuraj.xyz' }],
+  authors: [{ name: 'Surya Photography', url: 'https://suryaphotography.com' }],
   creator: 'Surya Photography',
   publisher: 'Surya Photography',
   formatDetection: {
@@ -56,7 +57,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://suryaphotography.raghuraj.xyz',
+    url: 'https://suryaphotography.com',
     siteName: 'Surya Photography - Professional Wedding & Event Photographer',
     title: 'Surya Photography - Professional Wedding & Event Photographer in Kannauj, UP',
     description: 'Award-winning wedding, portrait, and event photographer in Kannauj, Uttar Pradesh. Capturing precious moments with artistic excellence. Book your photography session today!',
@@ -82,10 +83,10 @@ export const metadata: Metadata = {
     }]
   },
   alternates: {
-    canonical: 'https://suryaphotography.raghuraj.xyz',
+    canonical: 'https://suryaphotography.com',
     languages: {
-      'en-US': 'https://suryaphotography.raghuraj.xyz',
-      'hi-IN': 'https://suryaphotography.raghuraj.xyz/hi',
+      'en-US': 'https://suryaphotography.com',
+      'hi-IN': 'https://suryaphotography.com/hi',
     },
   },
 };
@@ -108,15 +109,15 @@ export default function RootLayout({
               "alternateName": "Surya Photography Studio",
               "description": "Award-winning professional wedding, portrait, and event photographer in Kannauj, Uttar Pradesh. Specializing in capturing precious moments with artistic excellence.",
               "image": [
-                "https://suryaphotography.raghuraj.xyz/og-image.jpg",
-                "https://suryaphotography.raghuraj.xyz/logo.jpg",
-                "https://suryaphotography.raghuraj.xyz/studio.jpg"
+                "https://suryaphotography.com/og-image.jpg",
+                "https://suryaphotography.com/logo.jpg",
+                "https://suryaphotography.com/studio.jpg"
               ],
-              "logo": "https://suryaphotography.raghuraj.xyz/logo.jpg",
-              "@id": "https://suryaphotography.raghuraj.xyz/#organization",
-              "url": "https://suryaphotography.raghuraj.xyz/",
+              "logo": "https://suryaphotography.com/logo.jpg",
+              "@id": "https://suryaphotography.com/#organization",
+              "url": "https://suryaphotography.com/",
               "telephone": "+91-9999999999",
-              "email": "info@suryaphotography.raghuraj.xyz",
+              "email": "info@suryaphotography.com",
               "foundingDate": "2015",
               "founder": {
                 "@type": "Person",
@@ -234,12 +235,12 @@ export default function RootLayout({
               "@context": "https://schema.org",
               "@type": "WebSite",
               "name": "Surya Photography",
-              "url": "https://suryaphotography.raghuraj.xyz",
+              "url": "https://suryaphotography.com",
               "potentialAction": {
                 "@type": "SearchAction",
                 "target": {
                   "@type": "EntryPoint",
-                  "urlTemplate": "https://suryaphotography.raghuraj.xyz/search?q={search_term_string}"
+                  "urlTemplate": "https://suryaphotography.com/search?q={search_term_string}"
                 },
                 "query-input": "required name=search_term_string"
               },
@@ -259,6 +260,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <Navbar />
+          <FloatingContactBar />
           <main className="min-h-screen">{children}</main>
           <Footer />
         </ThemeProvider>

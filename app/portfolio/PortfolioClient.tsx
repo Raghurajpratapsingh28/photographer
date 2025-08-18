@@ -50,7 +50,7 @@ export default function PortfolioClient() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section with Parallax */}
-      <section ref={heroRef} className="relative h-screen w-full overflow-hidden">
+      <section ref={heroRef} className="relative h-[85vh] sm:h-screen w-full overflow-hidden">
         <motion.div
           style={{ y }}
           className="absolute inset-0 w-full h-full"
@@ -63,18 +63,18 @@ export default function PortfolioClient() {
             priority
           />
         </motion.div>
-        <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
+        <div className="absolute inset-0 bg-black/70 backdrop-blur-[2px]" />
         <div className="relative h-full flex items-center justify-center text-center z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="max-w-4xl px-4"
+            className="max-w-4xl px-6 sm:px-4 py-8"
           >
-            <h1 className="font-playfair text-4xl md:text-6xl font-bold text-white mb-6">
+            <h1 className="font-playfair text-3xl sm:text-4xl md:text-6xl font-bold text-white mb-4 sm:mb-6 mobile-text-shadow">
               Portfolio of Eternal Moments
             </h1>
-            <p className="text-white/90 text-lg md:text-xl max-w-2xl mx-auto">
+            <p className="text-white/90 text-base sm:text-lg md:text-xl max-w-2xl mx-auto mobile-text-shadow">
               A collection of our finest work across various photography genres
             </p>
           </motion.div>
@@ -82,20 +82,20 @@ export default function PortfolioClient() {
       </section>
 
       {/* Portfolio Section */}
-      <section className="py-20 px-4">
+      <section className="py-12 sm:py-20 px-4">
         <div className="container mx-auto">
           {/* Category Filters */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="flex flex-wrap justify-center gap-4 mb-12"
+            className="flex flex-wrap justify-center gap-2 sm:gap-4 mb-8 sm:mb-12 mobile-button-stack"
           >
             {categories.map((category) => (
               <button
                 key={category.id}
                 onClick={() => setSelectedCategory(category.id)}
-                className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${
+                className={`px-4 sm:px-6 py-3 sm:py-2 rounded-full text-sm font-medium transition-all duration-300 mobile-tap-target hover-touch ${
                   selectedCategory === category.id
                     ? "bg-primary text-primary-foreground"
                     : "bg-secondary hover:bg-secondary/80 text-secondary-foreground"
@@ -111,18 +111,19 @@ export default function PortfolioClient() {
             variants={containerVariants}
             initial="hidden"
             animate="visible"
-            className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 lg:gap-8"
           >
             {filteredItems.map((item) => (
               <motion.div
                 key={item.id}
                 variants={itemVariants}
-                className="group relative overflow-hidden rounded-lg bg-card shadow-lg"
+                className="group relative overflow-hidden rounded-lg bg-card shadow-lg hover-touch"
                 whileHover={{ y: -5 }}
+                whileTap={{ scale: 0.98 }}
                 transition={{ duration: 0.3 }}
               >
                 <Link href={`/portfolio/${item.slug}`}>
-                  <div className="relative aspect-[4/5]">
+                  <div className="relative aspect-[4/5] sm:aspect-[3/4] lg:aspect-[4/5]">
                     <Image
                       src={item.thumbnail}
                       alt={item.title}
@@ -130,19 +131,20 @@ export default function PortfolioClient() {
                       className="object-cover transition-transform duration-500 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-80 transition-opacity group-hover:opacity-90" />
-                    <div className="absolute bottom-0 left-0 right-0 p-6 translate-y-6 opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                    {/* Mobile: Always show content, Desktop: Show on hover */}
+                    <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6 sm:translate-y-6 sm:opacity-0 transition-all duration-300 sm:group-hover:translate-y-0 sm:group-hover:opacity-100">
                       <span className="text-xs uppercase tracking-wider bg-primary/80 text-primary-foreground px-2 py-1 rounded-full mb-2 inline-block backdrop-blur-sm">
                         {item.category}
                       </span>
-                      <h3 className="text-xl font-playfair font-medium text-white mt-2">
+                      <h3 className="text-lg sm:text-xl font-playfair font-medium text-white mt-2">
                         {item.title}
                       </h3>
-                      <p className="text-sm text-white/80 mt-1">
+                      <p className="text-sm text-white/80 mt-1 line-clamp-2">
                         {item.description}
                       </p>
-                      <div className="flex items-center justify-between mt-4 text-xs text-white/70">
-                        <span>{item.location}</span>
-                        <span>{item.date}</span>
+                      <div className="flex items-center justify-between mt-3 sm:mt-4 text-xs text-white/70">
+                        <span className="truncate">{item.location}</span>
+                        <span className="ml-2">{item.date}</span>
                       </div>
                     </div>
                   </div>
@@ -154,7 +156,7 @@ export default function PortfolioClient() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 bg-muted">
+      <section className="py-12 sm:py-20 px-4 bg-muted">
         <div className="container mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -163,15 +165,15 @@ export default function PortfolioClient() {
             transition={{ duration: 0.6 }}
             className="max-w-2xl mx-auto"
           >
-            <h2 className="font-playfair text-3xl md:text-4xl font-bold mb-6">
+            <h2 className="font-playfair text-2xl sm:text-3xl md:text-4xl font-bold mb-4 sm:mb-6">
               Let's Create Your Story
             </h2>
-            <p className="text-muted-foreground mb-8">
+            <p className="text-muted-foreground mb-6 sm:mb-8 text-base sm:text-lg leading-relaxed">
               Ready to capture your special moments? Let's discuss your photography needs.
             </p>
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90"
+              className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-base sm:text-lg font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 mobile-tap-target hover-touch"
             >
               Book a Session
             </Link>
