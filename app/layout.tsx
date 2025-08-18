@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'INhRV3BDMXzz3R-PhKrNlKlDK0-DJZ027mvJKTmKHLc',
+    google: '4v3J6p_i0o0Gm3CLnRtqKmPq_mFindECsUa_mKngj1U',
     yandex: 'your-yandex-verification-code',
     yahoo: 'your-yahoo-verification-code',
   },
