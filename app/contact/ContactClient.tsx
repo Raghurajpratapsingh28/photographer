@@ -162,14 +162,11 @@ export default function ContactClient() {
                 <div className="mt-12">
                   <h3 className="font-medium mb-4">Follow Us</h3>
                   <div className="flex space-x-4">
-                    <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                    <a href="https://www.instagram.com/photography_by_suryaaa" className="text-muted-foreground hover:text-primary transition-colors">
                       <Instagram className="w-6 h-6" />
                     </a>
-                    <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                    <a href="https://www.facebook.com/share/1C8twNGb5c/" className="text-muted-foreground hover:text-primary transition-colors">
                       <Facebook className="w-6 h-6" />
-                    </a>
-                    <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                      <Twitter className="w-6 h-6" />
                     </a>
                   </div>
                 </div>

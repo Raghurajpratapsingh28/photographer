@@ -19,28 +19,28 @@ const testimonials: Testimonial[] = [
     name: "Mayank and Shivani",
     role: "Wedding Clients",
     quote: "Our wedding photos exceeded all expectations. Every emotion, every moment was captured with such artistry. We couldn't be happier with the results!",
-    avatar: "https://images.pexels.com/photos/4974402/pexels-photo-4974402.jpeg"
+    avatar: "/Mayank-Shivani/MS1.png"
   },
   {
     id: 2,
     name: "Aviral and Lakshmi",
     role: "Wedding Clients",
     quote: "The wedding photography was absolutely stunning! Every precious moment from our special day was captured beautifully. The photographer's eye for detail is incredible.",
-    avatar: "https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg"
+    avatar: "/Aviral-Laxmi/IMG_2290.jpg"
   },
   {
     id: 3,
     name: "Ashish and Samiksha",
     role: "Wedding Clients",
     quote: "Our wedding photos are beyond perfect! The photographer captured the essence of our celebration with such creativity and elegance. We're forever grateful!",
-    avatar: "https://images.pexels.com/photos/842980/pexels-photo-842980.jpeg"
+    avatar: "/Ashish-Samiksha/AS1.jpg"
   },
   {
     id: 4,
     name: "Sarika",
     role: "Mehandi Clients",
     quote: "Our mehandi ceremony was perfectly documented! The photographer captured every beautiful moment and intricate design with such skill. These photos will be cherished for generations.",
-    avatar: "https://images.pexels.com/photos/5638651/pexels-photo-5638651.jpeg"
+    avatar: "/Mehandi-Sarika/1B1A9375.jpg"
   }
 ];
 

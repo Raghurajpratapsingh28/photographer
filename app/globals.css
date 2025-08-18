@@ -145,12 +145,13 @@
   }
 }
 
-/* Mobile-specific improvements */
+/* Mobile-specific improvements and performance optimizations */
 @media (max-width: 480px) {
   /* Ensure minimum tap target size of 44px */
   .mobile-tap-target {
     min-height: 44px;
     min-width: 44px;
+    touch-action: manipulation; /* Prevent double-tap zoom */
   }
   
   /* Better text readability on small screens */
@@ -182,9 +183,23 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+  
+  /* Performance optimizations for mobile */
+  .mobile-optimized {
+    will-change: transform; /* Optimize for animations */
+    backface-visibility: hidden; /* Prevent flicker */
+    transform-style: preserve-3d;
+  }
+  
+  /* Reduce motion for accessibility and performance */
+  .reduce-motion {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 
-/* Touch-friendly styles */
+/* Touch-friendly styles and advanced mobile optimizations */
 @media (hover: none) and (pointer: coarse) {
   .hover-touch:hover {
     transform: none;
@@ -193,5 +208,117 @@
   .hover-touch:active {
     transform: scale(0.98);
     transition: transform 0.1s;
+  }
+  
+  /* Prevent zoom on input focus */
+  input, select, textarea {
+    font-size: 16px !important;
+  }
+  
+  /* Optimize scrolling performance */
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+/* Advanced mobile optimizations */
+@media (max-width: 768px) {
+  /* Hide scrollbars but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Mobile-first grid improvements */
+  .mobile-grid-auto {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  /* Better mobile spacing */
+  .mobile-spacing {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Mobile-optimized typography */
+  .mobile-heading {
+    font-size: clamp(1.5rem, 4vw, 2.5rem);
+    line-height: 1.2;
+  }
+  
+  .mobile-text {
+    font-size: clamp(0.875rem, 2.5vw, 1rem);
+    line-height: 1.6;
+  }
+  
+  /* Performance: reduce complexity on mobile */
+  .mobile-simple-shadow {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  /* Touch-optimized interactive elements */
+  .mobile-interactive {
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.75rem;
+    transition: all 0.2s ease;
+  }
+  
+  .mobile-interactive:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+}
+
+/* High-DPI mobile displays */
+@media (-webkit-min-device-pixel-ratio: 2) and (max-width: 768px) {
+  .mobile-crisp {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Landscape mobile optimizations */
+@media (max-height: 480px) and (orientation: landscape) {
+  .landscape-mobile-compact {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .landscape-mobile-text {
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+}
+
+/* Accessibility and performance improvements */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Dark mode mobile optimizations */
+@media (prefers-color-scheme: dark) and (max-width: 768px) {
+  .mobile-dark-optimized {
+    color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+}
+
+/* Battery saving mode */
+@media (prefers-reduced-motion: reduce), (prefers-contrast: high) {
+  .battery-save {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    filter: none !important;
+    backdrop-filter: none !important;
   }
 }
