@@ -106,7 +106,7 @@ export default function AboutClient() {
       {/* Hero Section */}
       <section className="relative h-[70vh] overflow-hidden" ref={containerRef}>
        <Image src="/Mradul-Shailza/VMC03084.jpg" alt="Hero" fill className="object-cover" />
-        <div className="absolute inset-0 bg-black/60 backdrop-blur-[2px]" />
+        <div className="absolute inset-0 " />
         <div className="relative h-full flex items-center justify-center text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
