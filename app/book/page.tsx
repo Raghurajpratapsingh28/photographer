@@ -5,15 +5,16 @@ import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import Image from "next/image";
-import { Calendar, Clock, Camera, MapPin } from "lucide-react";
+import { Calendar, Clock, Camera, MapPin, CheckCircle, AlertCircle } from "lucide-react";
+import { useState } from "react";
 
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
   email: z.string().email("Invalid email address"),
   phone: z.string().min(10, "Please enter a valid phone number"),
   eventType: z.enum(["wedding", "portrait", "event", "commercial"]),
-  date: z.string(),
-  time: z.string(),
+  date: z.string().min(1, "Please select a date"),
+  time: z.string().min(1, "Please select a time"),
   location: z.string().min(5, "Please enter a valid location"),
   package: z.enum(["basic", "standard", "premium"]),
   message: z.string().optional()
@@ -64,13 +65,62 @@ const packages = [
 ];
 
 export default function BookPage() {
-  const { register, handleSubmit, formState: { errors } } = useForm<FormData>({
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState<{
+    type: 'success' | 'error' | null;
+    message: string;
+  }>({ type: null, message: '' });
+
+  const { register, handleSubmit, formState: { errors }, reset } = useForm<FormData>({
     resolver: zodResolver(formSchema)
   });
 
-  const onSubmit = (data: FormData) => {
-    console.log(data);
-    // Handle booking submission
+  const onSubmit = async (data: FormData) => {
+    setIsSubmitting(true);
+    setSubmitStatus({ type: null, message: '' });
+
+    try {
+      // Prepare the data for the contact API
+      const apiData = {
+        name: data.name,
+        email: data.email,
+        phone: data.phone,
+        eventType: data.eventType,
+        date: data.date,
+        message: `Package: ${packages.find(p => p.id === data.package)?.name}
+        Location: ${data.location}
+        Time: ${data.time}
+        Additional Notes: ${data.message || 'None'}`
+      };
+
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(apiData),
+      });
+
+      const result = await response.json();
+
+      if (response.ok) {
+        setSubmitStatus({
+          type: 'success',
+          message: 'Your booking request has been submitted successfully! We\'ll contact you within 24 hours to confirm your session.'
+        });
+        reset(); // Reset the form
+      } else {
+        throw new Error(result.error || 'Failed to submit booking request');
+      }
+    } catch (error) {
+      console.error('Booking submission error:', error);
+      setSubmitStatus({
+        type: 'error',
+        message: error instanceof Error ? error.message : 'An unexpected error occurred. Please try again.'
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -131,7 +181,7 @@ export default function BookPage() {
                 className="bg-card rounded-lg p-8 border border-border shadow-lg"
               >
                 <h3 className="font-playfair text-2xl font-bold mb-2">{pkg.name}</h3>
-                <p className="text-gold text-3xl font-bold mb-4">{pkg.price}</p>
+                {/* <p className="text-gold text-3xl font-bold mb-4">{pkg.price}</p> */}
                 <p className="text-muted-foreground mb-6">{pkg.description}</p>
                 <ul className="space-y-3 mb-8">
                   {pkg.features.map((feature, index) => (
@@ -154,6 +204,28 @@ export default function BookPage() {
             ))}
           </div>
 
+          {/* Status Messages */}
+          {submitStatus.type && (
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              className={`max-w-2xl mx-auto mb-8 p-4 rounded-lg border ${
+                submitStatus.type === 'success' 
+                  ? 'bg-green-50 border-green-200 text-green-800' 
+                  : 'bg-red-50 border-red-200 text-red-800'
+              }`}
+            >
+              <div className="flex items-center space-x-2">
+                {submitStatus.type === 'success' ? (
+                  <CheckCircle className="w-5 h-5 text-green-600" />
+                ) : (
+                  <AlertCircle className="w-5 h-5 text-red-600" />
+                )}
+                <p className="font-medium">{submitStatus.message}</p>
+              </div>
+            </motion.div>
+          )}
+
           {/* Booking Form */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -170,7 +242,7 @@ export default function BookPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium mb-2">
-                    Name
+                    Name *
                   </label>
                   <input
                     type="text"
@@ -186,7 +258,7 @@ export default function BookPage() {
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium mb-2">
-                    Email
+                    Email *
                   </label>
                   <input
                     type="email"
@@ -203,7 +275,7 @@ export default function BookPage() {
 
               <div>
                 <label htmlFor="phone" className="block text-sm font-medium mb-2">
-                  Phone
+                  Phone *
                 </label>
                 <input
                   type="tel"
@@ -219,24 +291,28 @@ export default function BookPage() {
 
               <div>
                 <label htmlFor="eventType" className="block text-sm font-medium mb-2">
-                  Event Type
+                  Event Type *
                 </label>
                 <select
                   id="eventType"
                   {...register("eventType")}
                   className="w-full px-4 py-3 rounded-md bg-card border border-border focus:outline-none focus:ring-2 focus:ring-primary"
                 >
+                  <option value="">Select event type</option>
                   <option value="wedding">Wedding Photography</option>
                   <option value="portrait">Portrait Session</option>
                   <option value="event">Event Coverage</option>
                   <option value="commercial">Commercial Photography</option>
                 </select>
+                {errors.eventType && (
+                  <p className="text-destructive text-sm mt-1">{errors.eventType.message}</p>
+                )}
               </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>
                   <label htmlFor="date" className="block text-sm font-medium mb-2">
-                    Preferred Date
+                    Preferred Date *
                   </label>
                   <input
                     type="date"
@@ -244,11 +320,14 @@ export default function BookPage() {
                     {...register("date")}
                     className="w-full px-4 py-3 rounded-md bg-card border border-border focus:outline-none focus:ring-2 focus:ring-primary"
                   />
+                  {errors.date && (
+                    <p className="text-destructive text-sm mt-1">{errors.date.message}</p>
+                  )}
                 </div>
 
                 <div>
                   <label htmlFor="time" className="block text-sm font-medium mb-2">
-                    Preferred Time
+                    Preferred Time *
                   </label>
                   <input
                     type="time"
@@ -256,12 +335,15 @@ export default function BookPage() {
                     {...register("time")}
                     className="w-full px-4 py-3 rounded-md bg-card border border-border focus:outline-none focus:ring-2 focus:ring-primary"
                   />
+                  {errors.time && (
+                    <p className="text-destructive text-sm mt-1">{errors.time.message}</p>
+                  )}
                 </div>
               </div>
 
               <div>
                 <label htmlFor="location" className="block text-sm font-medium mb-2">
-                  Location
+                  Location *
                 </label>
                 <input
                   type="text"
@@ -290,9 +372,17 @@ export default function BookPage() {
 
               <button
                 type="submit"
-                className="w-full px-6 py-3 rounded-md bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors"
+                disabled={isSubmitting}
+                className="w-full px-6 py-3 rounded-md bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center space-x-2"
               >
-                Complete Booking
+                {isSubmitting ? (
+                  <>
+                    <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                    <span>Submitting...</span>
+                  </>
+                ) : (
+                  <span>Complete Booking</span>
+                )}
               </button>
             </form>
           </motion.div>
