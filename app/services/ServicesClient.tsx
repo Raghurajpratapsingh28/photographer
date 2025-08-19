@@ -12,7 +12,7 @@ const services = [
     description: "Capture your special day with our premium wedding photography services. From intimate ceremonies to grand celebrations, we ensure every precious moment is preserved beautifully.",
     price: "Starting from $2,500",
     icon: <Camera className="h-8 w-8 text-gold" />,
-    image: "https://images.pexels.com/photos/1420705/pexels-photo-1420705.jpeg",
+    image: "/Mradul-Shailza/VMC03186.jpg",
     features: [
       "Full-day coverage",
       "Pre-wedding shoot",
@@ -82,7 +82,7 @@ const services = [
     description: "Document the vibrant and colorful mehandi ceremony with our specialized photography services. Capture the intricate designs and joyful celebrations.",
     price: "Starting from $600",
     icon: <Palette className="h-8 w-8 text-gold" />,
-    image: "/Mehandi-sarika/1B1A9378.jpg",
+    image: "/Mehandi-Sarika/1B1A9378.jpg",
     features: [
       "Full ceremony coverage",
       "Detail shots of mehandi",

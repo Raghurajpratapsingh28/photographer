@@ -89,6 +89,15 @@ export const metadata: Metadata = {
       'hi-IN': 'https://suryaphotography.com/hi',
     },
   },
+  icons: {
+    icon: [
+      { url: '/logo/white.PNG', type: 'image/png' },
+    ],
+    apple: [
+      { url: '/logo/white.PNG', type: 'image/png' },
+    ],
+    shortcut: ['/logo/white.PNG'],
+  },
 };
 
 export default function RootLayout({
@@ -110,10 +119,10 @@ export default function RootLayout({
               "description": "Award-winning professional wedding, portrait, and event photographer in Kannauj, Uttar Pradesh. Specializing in capturing precious moments with artistic excellence.",
               "image": [
                 "https://suryaphotography.com/og-image.jpg",
-                "https://suryaphotography.com/logo.jpg",
+                "https://suryaphotography.com/logo/white.PNG",
                 "https://suryaphotography.com/studio.jpg"
               ],
-              "logo": "https://suryaphotography.com/logo.jpg",
+              "logo": "https://suryaphotography.com/logo/white.PNG",
               "@id": "https://suryaphotography.com/#organization",
               "url": "https://suryaphotography.com/",
               "telephone": "+91-9999999999",
