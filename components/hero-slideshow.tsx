@@ -65,7 +65,7 @@ export default function HeroSlideshow() {
         </div>
 
         {/* Image indicators */}
-        <div className="absolute bottom-2 sm:bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2 z-30">
+        {/* <div className="absolute bottom-2 sm:bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2 z-30">
           {heroImages.map((_, index) => (
             <button
               key={index}
@@ -78,7 +78,7 @@ export default function HeroSlideshow() {
               aria-label={`Go to image ${index + 1}`}
             />
           ))}
-        </div>
+        </div> */}
       </div>
     </section>
   );
