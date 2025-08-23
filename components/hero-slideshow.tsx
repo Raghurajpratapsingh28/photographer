@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 
 // Array of hero images for the carousel
 const heroImages = [
-  "/logo/white.PNG"
+  "/home0.png"
 ];
 
 export default function HeroSlideshow() {
@@ -56,12 +56,12 @@ export default function HeroSlideshow() {
           >
             Contact Us
           </button>
-          <div className="flex flex-col">
+          {/* <div className="flex flex-col">
             <h2 className="font-bold text-2xl sm:text-4xl leading-none font-bebas text-white">
               Capturing Life's Best Moments
             </h2>
             <p className="text-white text-base sm:text-lg max-w-xs sm:max-w-none">Professional photography for weddings, portraits, and events.</p>
-          </div>
+          </div> */}
         </div>
 
         {/* Image indicators */}
