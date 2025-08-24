@@ -2,6 +2,13 @@
 
 Surya Photography is a modern, visually stunning portfolio and booking website for professional photography services. Built with Next.js 13, React, and Tailwind CSS, it showcases premium photography work, offers detailed service packages, and enables clients to book sessions or get in touch easily.
 
+## Recent Updates - August 24, 2025
+
+- Enhanced portfolio filtering system
+- Improved image loading performance
+- Added new wedding photography collection
+- Updated contact form validation
+
 ## Feature
 
 - **Home Page:** Hero slideshow, featured work, testimonials, and call-to-action.
