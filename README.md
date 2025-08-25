@@ -9,6 +9,13 @@ Surya Photography is a modern, visually stunning portfolio and booking website f
 - Added new wedding photography collection
 - Updated contact form validation
 
+## Recent Updates - August 25, 2025
+
+- Implemented advanced search functionality
+- Added image lazy loading optimization
+- Enhanced mobile responsiveness
+- Updated blog content management system
+
 ## Feature
 
 - **Home Page:** Hero slideshow, featured work, testimonials, and call-to-action.
